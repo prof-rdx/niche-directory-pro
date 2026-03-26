@@ -1,80 +1,60 @@
-import { motion } from 'framer-motion';
-import { X, Download, Code, Briefcase } from 'lucide-react';
+import { X, ExternalLink, Lock } from 'lucide-react';
+import { motion, AnimatePresence } from 'framer-motion';
 
-interface Props {
+interface DownloadModalProps {
+  isOpen: boolean;
   onClose: () => void;
+  datasetName?: string;
 }
 
-export default function DownloadModal({ onClose }: Props) {
+export default function DownloadModal({ isOpen, onClose, datasetName = "Complete Database" }: DownloadModalProps) {
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center px-4">
-      {/* Backdrop */}
-      <motion.div 
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        exit={{ opacity: 0 }}
-        onClick={onClose}
-        className="absolute inset-0 bg-background/80 backdrop-blur-sm"
-      />
-      
-      {/* Modal Content */}
-      <motion.div 
-        initial={{ opacity: 0, scale: 0.95, y: 20 }}
-        animate={{ opacity: 1, scale: 1, y: 0 }}
-        exit={{ opacity: 0, scale: 0.95, y: 20 }}
-        className="relative w-full max-w-lg glass-panel overflow-hidden"
-      >
-        {/* Decorative Gradients */}
-        <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-primary to-secondary" />
-        <div className="absolute -top-32 -right-32 w-64 h-64 bg-primary/20 rounded-full blur-3xl pointer-events-none" />
-        
-        <button 
-          onClick={onClose}
-          className="absolute top-4 right-4 p-2 text-text/60 hover:text-white bg-white/5 hover:bg-white/10 rounded-full transition-colors"
-        >
-          <X className="w-5 h-5" />
-        </button>
-
-        <div className="p-8">
-          <div className="w-16 h-16 bg-primary/10 rounded-2xl flex items-center justify-center mb-6 border border-primary/20">
-            <Download className="w-8 h-8 text-primary" />
-          </div>
-          
-          <h2 className="text-3xl font-bold text-white mb-3">
-            Want the full <span className="text-gradient">13,000+</span> dataset?
-          </h2>
-          
-          <p className="text-text/80 mb-8 leading-relaxed">
-            This directory currently shows a premium preview of my massive verified B2B dataset (Archery, Knives, Medical, etc). 
-            If you need the full CSV data, or want a custom web scraper built for your specific niche, I'm available for hire!
-          </p>
-
-          <div className="space-y-4">
-            <a 
-              href="https://upwork.com" 
-              target="_blank" 
-              rel="noopener noreferrer"
-               className="group flex items-center justify-between w-full p-4 bg-primary text-[#0B0C10] rounded-xl font-bold transition-all hover:scale-[1.02] shadow-[0_0_20px_rgba(102,252,241,0.3)] hover:shadow-[0_0_30px_rgba(102,252,241,0.5)]"
+    <AnimatePresence>
+      {isOpen && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm">
+          <motion.div
+            initial={{ opacity: 0, scale: 0.95 }}
+            animate={{ opacity: 1, scale: 1 }}
+            exit={{ opacity: 0, scale: 0.95 }}
+            className="glass-panel w-full max-w-md p-6 relative bg-[#1A1C23] border border-primary/20"
+          >
+            <button
+              onClick={onClose}
+              className="absolute right-4 top-4 text-text/50 hover:text-white transition-colors"
             >
-              <div className="flex items-center gap-3">
-                <Briefcase className="w-5 h-5" />
-                <span>Hire me on Upwork</span>
-              </div>
-              <span className="opacity-0 translate-x-[-10px] group-hover:opacity-100 group-hover:translate-x-0 transition-all font-mono">→</span>
-            </a>
+              <X className="w-5 h-5" />
+            </button>
 
-            <a 
-              href="mailto:contact@example.com"
-              className="group flex items-center justify-between w-full p-4 bg-surface border border-white/10 hover:border-primary/50 text-white rounded-xl font-medium transition-all hover:bg-surface/80"
-            >
-              <div className="flex items-center gap-3">
-                <Code className="w-5 h-5 text-secondary" />
-                <span>Need a Custom Scraper? DM me</span>
+            <div className="text-center mb-6">
+              <div className="w-16 h-16 bg-gradient-to-br from-primary/20 to-blue-500/20 rounded-full flex items-center justify-center mx-auto mb-4 border border-primary/30 shadow-[0_0_15px_rgba(35,134,54,0.3)]">
+                <Lock className="w-8 h-8 text-primary" />
               </div>
-            </a>
-          </div>
+              <h2 className="text-2xl font-bold text-white tracking-tight">Access {datasetName}</h2>
+              <p className="text-text/70 text-sm mt-3 leading-relaxed">
+                This premium dataset is exclusively available for direct clients. Connect directly on LinkedIn to discuss data extraction, enrichment, and B2B lead generation services.
+              </p>
+            </div>
+
+            <div className="space-y-4">
+              <a
+                href="https://linkedin.com/in/muhammad-ahmad-7728702b0"
+                target="_blank"
+                rel="noreferrer"
+                className="w-full bg-[#0A66C2] hover:bg-[#004182] text-white p-4 rounded-xl font-bold flex items-center justify-center gap-3 transition-colors shadow-lg shadow-[#0A66C2]/20"
+              >
+                <ExternalLink className="w-6 h-6" />
+                Connect on LinkedIn for Access
+              </a>
+            </div>
+
+            <div className="mt-6 pt-4 border-t border-white/5 text-center">
+              <p className="text-xs text-text/40">
+                Securely encrypted. Over 150k+ B2B leads successfully delivered to agencies worldwide.
+              </p>
+            </div>
+          </motion.div>
         </div>
-      </motion.div>
-    </div>
+      )}
+    </AnimatePresence>
   );
 }

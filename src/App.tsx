@@ -6,6 +6,7 @@ import DownloadModal from './components/DownloadModal';
 import DataTable from './components/DataTable';
 import DashboardStats from './components/DashboardStats';
 import ValueProps from './components/ValueProps';
+import DatasetVault from './components/DatasetVault';
 import { AnimatePresence } from 'framer-motion';
 import { Search } from 'lucide-react';
 
@@ -15,6 +16,7 @@ function App() {
   const [selectedCategory, setSelectedCategory] = useState('All');
   const [minRating, setMinRating] = useState(0);
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [activeDataset, setActiveDataset] = useState('Complete Database');
   const [viewMode, setViewMode] = useState<'grid' | 'table'>('table');
   const [filters, setFilters] = useState({ email: false, whatsapp: false, social: false });
 
@@ -49,7 +51,10 @@ function App() {
           <p className="text-sm text-text/70 mt-1">13,000+ verified B2B leads across global niches.</p>
         </div>
         <button 
-          onClick={() => setIsModalOpen(true)}
+          onClick={() => {
+            setActiveDataset('Complete Database');
+            setIsModalOpen(true);
+          }}
           className="bg-primary hover:bg-secondary text-[#0B0C10] font-bold py-2 px-6 rounded-lg shadow-[0_0_15px_rgba(102,252,241,0.5)] transition-all transform hover:scale-105"
         >
           Download Dataset
@@ -86,6 +91,12 @@ function App() {
         <div className="w-full lg:w-3/4 flex flex-col gap-6">
           
           <ValueProps />
+
+          {/* Specific Target Datasets */}
+          <DatasetVault onUnlock={(name) => {
+            setActiveDataset(name);
+            setIsModalOpen(true);
+          }} />
 
           {/* Search Bar */}
           <div className="glass-panel p-2 flex items-center gap-3">
@@ -144,7 +155,7 @@ function App() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <AnimatePresence>
                 {filteredData.slice(0, 100).map((item, i) => (
-                  <DirectoryCard key={item.name + i} data={item} index={i} />
+                  <DirectoryCard key={item.name + i} data={item} />
                 ))}
               </AnimatePresence>
               
@@ -160,9 +171,11 @@ function App() {
       </main>
 
       {/* Hire Me Modal */}
-      <AnimatePresence>
-        {isModalOpen && <DownloadModal onClose={() => setIsModalOpen(false)} />}
-      </AnimatePresence>
+      <DownloadModal 
+        isOpen={isModalOpen} 
+        onClose={() => setIsModalOpen(false)} 
+        datasetName={activeDataset} 
+      />
       
     </div>
   );

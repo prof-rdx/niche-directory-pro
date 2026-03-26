@@ -3,10 +3,9 @@ import { Star, MapPin, Globe, Mail, MessageCircle } from 'lucide-react';
 
 interface DirectoryCardProps {
   data: any;
-  index: number;
 }
 
-export default function DirectoryCard({ data, index }: DirectoryCardProps) {
+export default function DirectoryCard({ data }: DirectoryCardProps) {
   return (
     <div className="glass-panel p-6 flex flex-col h-full hover:-translate-y-1 transition-transform group">
       <div className="flex justify-between items-start mb-4">
