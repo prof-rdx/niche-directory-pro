@@ -1,16 +1,19 @@
 import { Database, Eye } from 'lucide-react';
+import { mockData } from '../data/mockData';
 
 interface DatasetVaultProps {
   onView: (datasetName: string) => void;
 }
 
 export default function DatasetVault({ onView }: DatasetVaultProps) {
+  const getCount = (niche: string) => mockData.filter(d => d.niche === niche).length.toLocaleString();
+
   const datasets = [
-    { name: "Sports Wear", records: "12,450+", desc: "Direct manufacturing contacts in Pakistan's primary sports hub.", tag: "SPORTS" },
-    { name: "Knives", records: "1,800+", desc: "High-end tactical and kitchen knife retailers.", tag: "KNIVES" },
-    { name: "Pink Salt", records: "3,200+", desc: "Australian and US wholesale distributor indices.", tag: "SALT" },
-    { name: "Surgery Equip", records: "5,100+", desc: "B2B medical supply chains globally.", tag: "MEDICAL" },
-    { name: "Archery", records: "1,450+", desc: "Archery retail chains and distributors in EU & USA.", tag: "ARCHERY" }
+    { name: "Sports Wear", records: getCount("Sports Wear"), desc: "Direct manufacturing contacts in Pakistan's primary sports hub.", tag: "SPORTS" },
+    { name: "Knives", records: getCount("Knives"), desc: "High-end tactical and kitchen knife retailers.", tag: "KNIVES" },
+    { name: "Pink Salt", records: getCount("Pink Salt"), desc: "Australian and US wholesale distributor indices.", tag: "SALT" },
+    { name: "Surgery Equip", records: getCount("Surgery Equip"), desc: "B2B medical supply chains globally.", tag: "MEDICAL" },
+    { name: "Archery", records: getCount("Archery"), desc: "Archery retail chains and distributors in EU & USA.", tag: "ARCHERY" }
   ];
 
   return (

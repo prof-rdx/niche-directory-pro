@@ -49,7 +49,7 @@ function App() {
           <h1 className="text-3xl font-extrabold tracking-tight">
             Niche<span className="text-gradient">Directory</span> <span className="text-xs bg-primary/20 text-primary px-2 py-1 rounded-full align-top ml-1">PRO</span>
           </h1>
-          <p className="text-sm text-text/70 mt-1">13,000+ verified B2B leads across global niches.</p>
+          <p className="text-sm text-text/70 mt-1">{mockData.length.toLocaleString()} verified B2B leads across global niches.</p>
         </div>
         <button 
           onClick={() => {
