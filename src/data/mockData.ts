@@ -2,6 +2,7 @@ export const mockData = [
   {
     "name": "Aerographe Airsoft Custom",
     "category": "Airsoft supply store",
+    "niche": "Archery",
     "city": "116 Cr Paul Doumer",
     "state": "17100",
     "country": "France",
@@ -19,6 +20,7 @@ export const mockData = [
   {
     "name": "Pi\u00f1avall SL",
     "category": "Leather goods store",
+    "niche": "Archery",
     "city": "11600 Ubrique",
     "state": "C\u00e1diz",
     "country": "Spain",
@@ -36,6 +38,7 @@ export const mockData = [
   {
     "name": "METRO TRENTO",
     "category": "Warehouse club",
+    "niche": "Archery",
     "city": "112",
     "state": "38100",
     "country": "Italy",
@@ -53,6 +56,7 @@ export const mockData = [
   {
     "name": "Fullmetal Airsoft",
     "category": "Airsoft supply store",
+    "niche": "Archery",
     "city": "Distrito Centro",
     "state": "29014",
     "country": "Spain",
@@ -70,6 +74,7 @@ export const mockData = [
   {
     "name": "Black Deer Archery",
     "category": "Archery store",
+    "niche": "Archery",
     "city": "Helmstedter Str. 53",
     "state": "38162",
     "country": "Germany",
@@ -87,6 +92,7 @@ export const mockData = [
   {
     "name": "B&Q Slough",
     "category": "Home improvement store",
+    "niche": "Archery",
     "city": "280 Bath Rd",
     "state": "Slough",
     "country": "United Kingdom",
@@ -104,6 +110,7 @@ export const mockData = [
   {
     "name": "Pro-Line Toys & Funsport Equipment e.K.",
     "category": "Gun shop",
+    "niche": "Archery",
     "city": "Steinkirchner Str. 30",
     "state": "81475",
     "country": "Germany",
@@ -121,6 +128,7 @@ export const mockData = [
   {
     "name": "B&Q Coventry - Alvis Retail Park",
     "category": "Home improvement store",
+    "niche": "Archery",
     "city": "Alvis Retail Park",
     "state": "Coventry",
     "country": "United Kingdom",
@@ -138,6 +146,7 @@ export const mockData = [
   {
     "name": "Apparel Fashion Store",
     "category": "Men's clothing store",
+    "niche": "Archery",
     "city": "70026 Modugno",
     "state": "Metropolitan",
     "country": "Italy",
@@ -155,6 +164,7 @@ export const mockData = [
   {
     "name": "DECATHLON Hannover-Laatzen",
     "category": "Sporting goods store",
+    "niche": "Archery",
     "city": "Karlsruher Str. 8",
     "state": "30880",
     "country": "Germany",
@@ -172,6 +182,7 @@ export const mockData = [
   {
     "name": "Cesar Shop trgovina in storitve d.o.o.",
     "category": "Store",
+    "niche": "Archery",
     "city": "Zalo\u0161ka cesta 159",
     "state": "1000",
     "country": "Slovenia",
@@ -189,6 +200,7 @@ export const mockData = [
   {
     "name": "L'Atelier d'Arcs",
     "category": "Archery store",
+    "niche": "Archery",
     "city": "210 Rte du Village",
     "state": "38870",
     "country": "France",
@@ -206,6 +218,7 @@ export const mockData = [
   {
     "name": "SELGROS Gersthofen",
     "category": "Industrial supermarket",
+    "niche": "Archery",
     "city": "Andreas-Schmid-Stra\u00dfe 2",
     "state": "86368",
     "country": "Germany",
@@ -223,6 +236,7 @@ export const mockData = [
   {
     "name": "Hypermart Depok Townsquare",
     "category": "Hypermarket",
+    "niche": "Archery",
     "city": "Kota Depok",
     "state": "Jawa",
     "country": "Indonesia",
@@ -240,6 +254,7 @@ export const mockData = [
   {
     "name": "Dissegna Sports Distribution srl",
     "category": "Sporting goods store",
+    "niche": "Archery",
     "city": "52/53 S. Giuseppe di",
     "state": "36022",
     "country": "Italy",
@@ -257,6 +272,7 @@ export const mockData = [
   {
     "name": "Bricocenter",
     "category": "Do-it-yourself shop",
+    "niche": "Archery",
     "city": "Via Campo di Pile",
     "state": "67100",
     "country": "Italy",
@@ -274,6 +290,7 @@ export const mockData = [
   {
     "name": "The Hunting Shop",
     "category": "Archery store",
+    "niche": "Archery",
     "city": "Rue du Tricointe 39",
     "state": "5530",
     "country": "Belgium",
@@ -291,6 +308,7 @@ export const mockData = [
   {
     "name": "Armeria Regina",
     "category": "Gun shop",
+    "niche": "Archery",
     "city": "49",
     "state": "31015",
     "country": "Italy",
@@ -308,6 +326,7 @@ export const mockData = [
   {
     "name": "OBI Markt Ravensburg",
     "category": "Home improvement store",
+    "niche": "Archery",
     "city": "Bleicherstra\u00dfe 45",
     "state": "88212",
     "country": "Germany",
@@ -325,6 +344,7 @@ export const mockData = [
   {
     "name": "Smyths Toys Superstores Durham",
     "category": "Toy store",
+    "niche": "Archery",
     "city": "Pity Me",
     "state": "Durham",
     "country": "United Kingdom",
@@ -342,6 +362,7 @@ export const mockData = [
   {
     "name": "Coronel Airsoft",
     "category": "Airsoft supply store",
+    "niche": "Archery",
     "city": "08370 Calella",
     "state": "Barcelona",
     "country": "Spain",
@@ -359,6 +380,7 @@ export const mockData = [
   {
     "name": "SELGROS Berlin-Lichtenberg",
     "category": "Industrial supermarket",
+    "niche": "Archery",
     "city": "Rhinstra\u00dfe 141",
     "state": "10315",
     "country": "Germany",
@@ -376,6 +398,7 @@ export const mockData = [
   {
     "name": "OBI Markt Sindelfingen",
     "category": "Home improvement store",
+    "niche": "Archery",
     "city": "Mahdentalstra\u00dfe 78",
     "state": "71065",
     "country": "Germany",
@@ -393,6 +416,7 @@ export const mockData = [
   {
     "name": "Smyths Toys Superstores Mansfield",
     "category": "Toy store",
+    "niche": "Archery",
     "city": "Midland Way",
     "state": "Mansfield",
     "country": "United Kingdom",
@@ -410,6 +434,7 @@ export const mockData = [
   {
     "name": "ArcheryOnLine",
     "category": "Sporting goods store",
+    "niche": "Archery",
     "city": "19/a",
     "state": "05029",
     "country": "Italy",
@@ -427,6 +452,7 @@ export const mockData = [
   {
     "name": "Leroy Merlin Girona",
     "category": "Home improvement store",
+    "niche": "Archery",
     "city": "66",
     "state": "17003",
     "country": "Spain",
@@ -444,6 +470,7 @@ export const mockData = [
   {
     "name": "Armer\u00eda Merino",
     "category": "Gun shop",
+    "niche": "Archery",
     "city": "37",
     "state": "41007",
     "country": "Spain",
@@ -461,6 +488,7 @@ export const mockData = [
   {
     "name": "DECATHLON Heilbronn",
     "category": "Sporting goods store",
+    "niche": "Archery",
     "city": "Berliner Pl. 12",
     "state": "74072",
     "country": "Germany",
@@ -478,6 +506,7 @@ export const mockData = [
   {
     "name": "Armurerie Laudier",
     "category": "Gun shop",
+    "niche": "Archery",
     "city": "33 Bis Gd Rue Maurice Viollette",
     "state": "28100",
     "country": "France",
@@ -495,6 +524,7 @@ export const mockData = [
   {
     "name": "Armeria Y Deportes Lebrijanos Sl",
     "category": "Gun shop",
+    "niche": "Archery",
     "city": "41740 Lebrija",
     "state": "Sevilla",
     "country": "Spain",
@@ -512,6 +542,7 @@ export const mockData = [
   {
     "name": "Armeria Innocenti",
     "category": "Gun shop",
+    "niche": "Archery",
     "city": "219",
     "state": "59013",
     "country": "Italy",
@@ -529,6 +560,7 @@ export const mockData = [
   {
     "name": "Gunbrokers Berlin",
     "category": "Gun shop",
+    "niche": "Archery",
     "city": "Buckower Chaussee 100",
     "state": "12277",
     "country": "Germany",
@@ -546,6 +578,7 @@ export const mockData = [
   {
     "name": "Armurerie Jacquet SARL",
     "category": "Gun shop",
+    "niche": "Archery",
     "city": "44 Route de Rouen",
     "state": "76690",
     "country": "France",
@@ -563,6 +596,7 @@ export const mockData = [
   {
     "name": "Armes Concept",
     "category": "Gun shop",
+    "niche": "Archery",
     "city": "2 Av. de Verdun",
     "state": "73100",
     "country": "France",
@@ -580,6 +614,7 @@ export const mockData = [
   {
     "name": "Marks and Spencer",
     "category": "Supermarket",
+    "niche": "Archery",
     "city": "B376",
     "state": "Reading",
     "country": "United Kingdom",
@@ -597,6 +632,7 @@ export const mockData = [
   {
     "name": "Bavarian-Archery",
     "category": "Sporting goods store",
+    "niche": "Archery",
     "city": "Raiffeisenstra\u00dfe 5",
     "state": "91575",
     "country": "Germany",
@@ -614,6 +650,7 @@ export const mockData = [
   {
     "name": "Atlantis Art Materials",
     "category": "Art supply store",
+    "niche": "Archery",
     "city": "Bayford St",
     "state": "London",
     "country": "United Kingdom",
@@ -631,6 +668,7 @@ export const mockData = [
   {
     "name": "BRUMS",
     "category": "Children's clothing store",
+    "niche": "Archery",
     "city": "44",
     "state": "74023",
     "country": "Italy",
@@ -648,6 +686,7 @@ export const mockData = [
   {
     "name": "Arrowforge GmbH",
     "category": "Archery store",
+    "niche": "Archery",
     "city": "Hainekamp 14",
     "state": "31711",
     "country": "Germany",
@@ -665,6 +704,7 @@ export const mockData = [
   {
     "name": "ARCHERIRE",
     "category": "Archery store",
+    "niche": "Archery",
     "city": "Imp. de la Ferme",
     "state": "60530",
     "country": "France",
@@ -682,6 +722,7 @@ export const mockData = [
   {
     "name": "B&Q Manchester - Trafford Park",
     "category": "Home improvement store",
+    "niche": "Archery",
     "city": "Stretford",
     "state": "Manchester",
     "country": "United Kingdom",
@@ -699,6 +740,7 @@ export const mockData = [
   {
     "name": "Lotus's Ipoh Garden",
     "category": "Hypermarket",
+    "niche": "Archery",
     "city": "31400 Ipoh",
     "state": "Perak",
     "country": "Malaysia",
@@ -716,6 +758,7 @@ export const mockData = [
   {
     "name": "Archery Supplies Direct",
     "category": "Sporting goods store",
+    "niche": "Archery",
     "city": "60 Arthur St",
     "state": "Redditch",
     "country": "United Kingdom",
@@ -733,6 +776,7 @@ export const mockData = [
   {
     "name": "Paul Swertz GmbH - hagebaumarkt Goch",
     "category": "Home improvement store",
+    "niche": "Archery",
     "city": "Am B\u00f6ssershof 2",
     "state": "47574",
     "country": "Germany",
@@ -750,6 +794,7 @@ export const mockData = [
   {
     "name": "Tienda Shoke",
     "category": "Gun shop",
+    "niche": "Archery",
     "city": "Retiro",
     "state": "28007",
     "country": "Spain",
@@ -767,6 +812,7 @@ export const mockData = [
   {
     "name": "Lands And Waters - Reims",
     "category": "Hunting and fishing store",
+    "niche": "Archery",
     "city": "07 Rue Rayet-Li\u00e9nart",
     "state": "51420",
     "country": "France",
@@ -784,6 +830,7 @@ export const mockData = [
   {
     "name": "Gobel Archery GmbH",
     "category": "Sporting goods store",
+    "niche": "Archery",
     "city": "Triftstra\u00dfe 58",
     "state": "38723",
     "country": "Germany",
@@ -801,6 +848,7 @@ export const mockData = [
   {
     "name": "L'Arquebusier",
     "category": "Gun shop",
+    "niche": "Archery",
     "city": "1 Imp. Faye",
     "state": "33000",
     "country": "France",
@@ -818,6 +866,7 @@ export const mockData = [
   {
     "name": "DECATHLON D\u00fcsseldorf",
     "category": "Sporting goods store",
+    "niche": "Archery",
     "city": "Schadowstra\u00dfe 77-79",
     "state": "40212",
     "country": "Germany",
@@ -835,6 +884,7 @@ export const mockData = [
   {
     "name": "The Archery Company - by appointment only",
     "category": "Archery store",
+    "niche": "Archery",
     "city": "Potton",
     "state": "Sandy",
     "country": "United Kingdom",
@@ -852,6 +902,7 @@ export const mockData = [
   {
     "name": "Bear Mountain Sports",
     "category": "Outdoor sports store",
+    "niche": "Archery",
     "city": "Bakersfield",
     "state": "CA",
     "country": "United States",
@@ -869,6 +920,7 @@ export const mockData = [
   {
     "name": "D's Ace Hardware",
     "category": "Hardware store",
+    "niche": "Archery",
     "city": "St Cloud",
     "state": "FL",
     "country": "United States",
@@ -886,6 +938,7 @@ export const mockData = [
   {
     "name": "Target",
     "category": "Department store",
+    "niche": "Archery",
     "city": "Sand City",
     "state": "CA",
     "country": "United States",
@@ -903,6 +956,7 @@ export const mockData = [
   {
     "name": "FORT SANDFLAT PRODUCTS",
     "category": "Gun shop",
+    "niche": "Archery",
     "city": "Athens",
     "state": "TX",
     "country": "United States",
@@ -920,6 +974,7 @@ export const mockData = [
   {
     "name": "Walmart",
     "category": "Department store",
+    "niche": "Archery",
     "city": "Duarte",
     "state": "CA",
     "country": "United States",
@@ -937,6 +992,7 @@ export const mockData = [
   {
     "name": "HTX Tactical Custom Firearms & Outdoors",
     "category": "Gun shop",
+    "niche": "Archery",
     "city": "Houston",
     "state": "TX",
     "country": "United States",
@@ -954,6 +1010,7 @@ export const mockData = [
   {
     "name": "Bartow Ace Hardware",
     "category": "Hardware store",
+    "niche": "Archery",
     "city": "Bartow",
     "state": "FL",
     "country": "United States",
@@ -971,6 +1028,7 @@ export const mockData = [
   {
     "name": "Fitness Warehouse Direct",
     "category": "Fitness equipment wholesaler",
+    "niche": "Archery",
     "city": "Hayward",
     "state": "CA",
     "country": "United States",
@@ -988,6 +1046,7 @@ export const mockData = [
   {
     "name": "Walmart Supercenter",
     "category": "Department store",
+    "niche": "Archery",
     "city": "Dallas",
     "state": "TX",
     "country": "United States",
@@ -1005,6 +1064,7 @@ export const mockData = [
   {
     "name": "Armstrong Guard Services",
     "category": "Security guard service",
+    "niche": "Archery",
     "city": "Los Angeles",
     "state": "CA",
     "country": "United States",
@@ -1022,6 +1082,7 @@ export const mockData = [
   {
     "name": "TRIARC Systems, LLC",
     "category": "Gun shop",
+    "niche": "Archery",
     "city": "Mansfield",
     "state": "TX",
     "country": "United States",
@@ -1039,6 +1100,7 @@ export const mockData = [
   {
     "name": "BOW",
     "category": "Marine supply store",
+    "niche": "Archery",
     "city": "Unknown",
     "state": "Unknown",
     "country": "USA",
@@ -1056,6 +1118,7 @@ export const mockData = [
   {
     "name": "Mt McCoy Auctions",
     "category": "Gun shop",
+    "niche": "Archery",
     "city": "Simi Valley",
     "state": "CA",
     "country": "United States",
@@ -1073,6 +1136,7 @@ export const mockData = [
   {
     "name": "Ferguson Plumbing Supply",
     "category": "Plumbing supply store",
+    "niche": "Archery",
     "city": "Lewisville",
     "state": "TX",
     "country": "United States",
@@ -1090,6 +1154,7 @@ export const mockData = [
   {
     "name": "Walmart Supercenter",
     "category": "Department store",
+    "niche": "Archery",
     "city": "Mansfield",
     "state": "TX",
     "country": "United States",
@@ -1107,6 +1172,7 @@ export const mockData = [
   {
     "name": "The Blue Screw",
     "category": "Manufacturer",
+    "niche": "Archery",
     "city": "Dade City",
     "state": "FL",
     "country": "United States",
@@ -1124,6 +1190,7 @@ export const mockData = [
   {
     "name": "Big 5 Sporting Goods",
     "category": "Sporting goods store",
+    "niche": "Archery",
     "city": "Fresno",
     "state": "CA",
     "country": "United States",
@@ -1141,6 +1208,7 @@ export const mockData = [
   {
     "name": "Praxis Tactical Hunting and Gun Shop",
     "category": "Gun shop",
+    "niche": "Archery",
     "city": "Thousand Oaks",
     "state": "CA",
     "country": "United States",
@@ -1158,6 +1226,7 @@ export const mockData = [
   {
     "name": "FFL Services 831",
     "category": "Gun shop",
+    "niche": "Archery",
     "city": "Marina",
     "state": "CA",
     "country": "United States",
@@ -1175,6 +1244,7 @@ export const mockData = [
   {
     "name": "Security Guard Training",
     "category": "Firearms academy",
+    "niche": "Archery",
     "city": "Unknown",
     "state": "Unknown",
     "country": "USA",
@@ -1192,6 +1262,7 @@ export const mockData = [
   {
     "name": "Lone Star Tactical Supply",
     "category": "Gun shop",
+    "niche": "Archery",
     "city": "Houston",
     "state": "TX",
     "country": "United States",
@@ -1209,6 +1280,7 @@ export const mockData = [
   {
     "name": "Texas",
     "category": "Archery",
+    "niche": "Archery",
     "city": "Unknown",
     "state": "Unknown",
     "country": "USA",
@@ -1226,6 +1298,7 @@ export const mockData = [
   {
     "name": "The Diamond Factory",
     "category": "Diamond dealer",
+    "niche": "Archery",
     "city": "Dallas",
     "state": "TX",
     "country": "United States",
@@ -1243,6 +1316,7 @@ export const mockData = [
   {
     "name": "Lone Star Guns Gallery & Gear",
     "category": "Gun shop",
+    "niche": "Archery",
     "city": "Weatherford",
     "state": "TX",
     "country": "United States",
@@ -1260,6 +1334,7 @@ export const mockData = [
   {
     "name": "The Armories Oviedo",
     "category": "Gun shop",
+    "niche": "Archery",
     "city": "Oviedo",
     "state": "FL",
     "country": "United States",
@@ -1277,6 +1352,7 @@ export const mockData = [
   {
     "name": "McBride's Guns Inc.",
     "category": "Gun shop",
+    "niche": "Archery",
     "city": "Austin",
     "state": "TX",
     "country": "United States",
@@ -1294,6 +1370,7 @@ export const mockData = [
   {
     "name": "Bass Pro Shops",
     "category": "Sporting goods store",
+    "niche": "Archery",
     "city": "Prattville",
     "state": "AL",
     "country": "United States",
@@ -1311,6 +1388,7 @@ export const mockData = [
   {
     "name": "Academy Sports + Outdoors",
     "category": "Sporting goods store",
+    "niche": "Archery",
     "city": "Garland",
     "state": "TX",
     "country": "United States",
@@ -1328,6 +1406,7 @@ export const mockData = [
   {
     "name": "Turner's Outdoorsman-San Marcos",
     "category": "Gun shop",
+    "niche": "Archery",
     "city": "San Marcos",
     "state": "CA",
     "country": "United States",
@@ -1345,6 +1424,7 @@ export const mockData = [
   {
     "name": "Bravo Concealment",
     "category": "Sportwear manufacturer",
+    "niche": "Archery",
     "city": "Alamo",
     "state": "TX",
     "country": "United States",
@@ -1362,6 +1442,7 @@ export const mockData = [
   {
     "name": "Cannons Marina Boat Sales & Rentals",
     "category": "Boat dealer",
+    "niche": "Archery",
     "city": "Longboat Key",
     "state": "FL",
     "country": "United States",
@@ -1379,6 +1460,7 @@ export const mockData = [
   {
     "name": "Cya Supply Co",
     "category": "Manufacturer",
+    "niche": "Archery",
     "city": "San Antonio",
     "state": "TX",
     "country": "United States",
@@ -1396,6 +1478,7 @@ export const mockData = [
   {
     "name": "Price's Academy of Security Guard Training & Korean Karate",
     "category": "Security guard service",
+    "niche": "Archery",
     "city": "California City",
     "state": "CA",
     "country": "United States",
@@ -1413,6 +1496,7 @@ export const mockData = [
   {
     "name": "Winsupply Kerrville",
     "category": "Plumbing supply store",
+    "niche": "Archery",
     "city": "Kerrville",
     "state": "TX",
     "country": "United States",
@@ -1430,6 +1514,7 @@ export const mockData = [
   {
     "name": "The Home Depot",
     "category": "Home improvement store",
+    "niche": "Archery",
     "city": "Punta Gorda",
     "state": "FL",
     "country": "United States",
@@ -1447,6 +1532,7 @@ export const mockData = [
   {
     "name": "Academy Sports + Outdoors",
     "category": "Sporting goods store",
+    "niche": "Archery",
     "city": "Grapevine",
     "state": "TX",
     "country": "United States",
@@ -1464,6 +1550,7 @@ export const mockData = [
   {
     "name": "Sportsman's Warehouse",
     "category": "Outdoor sports store",
+    "niche": "Archery",
     "city": "Seminole",
     "state": "FL",
     "country": "United States",
@@ -1481,6 +1568,7 @@ export const mockData = [
   {
     "name": "Palomo Archery",
     "category": "Archery range",
+    "niche": "Archery",
     "city": "Palo Alto",
     "state": "CA",
     "country": "United States",
@@ -1498,6 +1586,7 @@ export const mockData = [
   {
     "name": "Ferguson Plumbing Supply",
     "category": "Plumbing supply store",
+    "niche": "Archery",
     "city": "San Juan Capistrano",
     "state": "CA",
     "country": "United States",
@@ -1515,6 +1604,7 @@ export const mockData = [
   {
     "name": "Bass Pro Shops",
     "category": "Sporting goods store",
+    "niche": "Archery",
     "city": "Columbia",
     "state": "MO",
     "country": "United States",
@@ -1532,6 +1622,7 @@ export const mockData = [
   {
     "name": "Bass Pro Shops",
     "category": "Sporting goods store",
+    "niche": "Archery",
     "city": "Fort Myers",
     "state": "FL",
     "country": "United States",
@@ -1549,6 +1640,7 @@ export const mockData = [
   {
     "name": "Ponytail Bows",
     "category": "Clothing store",
+    "niche": "Archery",
     "city": "Maitland",
     "state": "FL",
     "country": "United States",
@@ -1566,6 +1658,7 @@ export const mockData = [
   {
     "name": "MAYA Archers",
     "category": "Archery range",
+    "niche": "Archery",
     "city": "Roseville",
     "state": "CA",
     "country": "United States",
@@ -1583,6 +1676,7 @@ export const mockData = [
   {
     "name": "Sportsman's Warehouse",
     "category": "Outdoor sports store",
+    "niche": "Archery",
     "city": "Fresno",
     "state": "CA",
     "country": "United States",
@@ -1600,6 +1694,7 @@ export const mockData = [
   {
     "name": "Walmart",
     "category": "Department store",
+    "niche": "Archery",
     "city": "Westminster",
     "state": "CA",
     "country": "United States",
@@ -1617,6 +1712,7 @@ export const mockData = [
   {
     "name": "El Dorado Archery Range",
     "category": "Archery range",
+    "niche": "Archery",
     "city": "Long Beach",
     "state": "CA",
     "country": "United States",
@@ -1634,6 +1730,7 @@ export const mockData = [
   {
     "name": "Silky Socks",
     "category": "Wholesaler",
+    "niche": "Archery",
     "city": "Unknown",
     "state": "Unknown",
     "country": "USA",
@@ -1651,6 +1748,7 @@ export const mockData = [
   {
     "name": "Gunbuyer",
     "category": "Gun shop",
+    "niche": "Archery",
     "city": "Ormond Beach",
     "state": "FL",
     "country": "United States",
@@ -1668,6 +1766,7 @@ export const mockData = [
   {
     "name": "Big Shot Firearms",
     "category": "Gun shop",
+    "niche": "Archery",
     "city": "El Campo",
     "state": "TX",
     "country": "United States",
@@ -1685,6 +1784,7 @@ export const mockData = [
   {
     "name": "Godfather Pawn Jewelry & Gun 10% Loans",
     "category": "Pawn shop",
+    "niche": "Archery",
     "city": "Orlando",
     "state": "FL",
     "country": "United States",
@@ -1702,6 +1802,7 @@ export const mockData = [
   {
     "name": "Camping Shop Amersfoort",
     "category": "Camping store",
+    "niche": "Knives",
     "city": "Van Galenstraat 33",
     "state": "3814",
     "country": "Netherlands",
@@ -1719,6 +1820,7 @@ export const mockData = [
   {
     "name": "ALIGRO Rapperswil-Jona",
     "category": "Supermarket",
+    "niche": "Knives",
     "city": "R\u00fctistrasse 155",
     "state": "8645",
     "country": "Switzerland",
@@ -1736,6 +1838,7 @@ export const mockData = [
   {
     "name": "Scandiknives - Coutellerie La Queue de Vache",
     "category": "Cutlery store",
+    "niche": "Knives",
     "city": "82 Rue d'Orgebray",
     "state": "76116",
     "country": "France",
@@ -1753,6 +1856,7 @@ export const mockData = [
   {
     "name": "Victorinox Poland Sklep firmowy i Serwis ul. K.O.R. 62",
     "category": "Outlet store",
+    "niche": "Knives",
     "city": "Komitetu Obrony Robotnik\u00f3w 62",
     "state": "02-146",
     "country": "Poland",
@@ -1770,6 +1874,7 @@ export const mockData = [
   {
     "name": "Victorinox Store Wien",
     "category": "Store",
+    "niche": "Knives",
     "city": "Herrengasse 1-3/Shop 3",
     "state": "1010",
     "country": "Austria",
@@ -1787,6 +1892,7 @@ export const mockData = [
   {
     "name": "Konzum",
     "category": "General store",
+    "niche": "Knives",
     "city": "10000",
     "state": "Zagreb",
     "country": "Croatia",
@@ -1804,6 +1910,7 @@ export const mockData = [
   {
     "name": "Do it + Garden - Ibach-Schwyz - Mythen-Center",
     "category": "Home improvement store",
+    "niche": "Knives",
     "city": "Mythen-Centerstrasse 18",
     "state": "6438",
     "country": "Switzerland",
@@ -1821,6 +1928,7 @@ export const mockData = [
   {
     "name": "JUMBO Langnau Ilfiscenter",
     "category": "Home improvement store",
+    "niche": "Knives",
     "city": "S\u00e4gestrasse 37",
     "state": "3550",
     "country": "Switzerland",
@@ -1838,6 +1946,7 @@ export const mockData = [
   {
     "name": "tegut... gute Lebensmittel",
     "category": "Supermarket",
+    "niche": "Knives",
     "city": "Wladimirstra\u00dfe 1-3",
     "state": "91058",
     "country": "Germany",
@@ -1855,6 +1964,7 @@ export const mockData = [
   {
     "name": "Coop",
     "category": "Supermarket",
+    "niche": "Knives",
     "city": "140",
     "state": "52010",
     "country": "Italy",
@@ -1872,6 +1982,7 @@ export const mockData = [
   {
     "name": "MM Action A/S",
     "category": "Toy store",
+    "niche": "Knives",
     "city": "Osted",
     "state": "4320",
     "country": "Denmark",
@@ -1889,6 +2000,7 @@ export const mockData = [
   {
     "name": "Imerco",
     "category": "Hardware store",
+    "niche": "Knives",
     "city": "Lygten 2K",
     "state": "2400",
     "country": "Denmark",
@@ -1906,6 +2018,7 @@ export const mockData = [
   {
     "name": "Multitools.nl | Multitoolswinkel",
     "category": "Knife store",
+    "niche": "Knives",
     "city": "Mollevite 28",
     "state": "6931",
     "country": "Netherlands",
@@ -1923,6 +2036,7 @@ export const mockData = [
   {
     "name": "LEROY MERLIN",
     "category": "Home improvement store",
+    "niche": "Knives",
     "city": "s/n",
     "state": "03015",
     "country": "Spain",
@@ -1940,6 +2054,7 @@ export const mockData = [
   {
     "name": "Maxknives",
     "category": "Manufacturer",
+    "niche": "Knives",
     "city": "146 Rue Victor Hugo",
     "state": "54800",
     "country": "France",
@@ -1957,6 +2072,7 @@ export const mockData = [
   {
     "name": "Raider-Shop S\u00e0rl",
     "category": "Store",
+    "niche": "Knives",
     "city": "Rue Cordey 8",
     "state": "1400",
     "country": "Switzerland",
@@ -1974,6 +2090,7 @@ export const mockData = [
   {
     "name": "Leroy Merlin Elche",
     "category": "Home improvement store",
+    "niche": "Knives",
     "city": "03206 Carrus",
     "state": "Alicante",
     "country": "Spain",
@@ -1991,6 +2108,7 @@ export const mockData = [
   {
     "name": "Belfast Castle Court Argos",
     "category": "Department store",
+    "niche": "Knives",
     "city": "Royal Ave",
     "state": "Belfast",
     "country": "United Kingdom",
@@ -2008,6 +2126,7 @@ export const mockData = [
   {
     "name": "MANOR Schattdorf",
     "category": "Department store",
+    "niche": "Knives",
     "city": "Milit\u00e4rstrasse 9",
     "state": "6467",
     "country": "Switzerland",
@@ -2025,6 +2144,7 @@ export const mockData = [
   {
     "name": "Lidl",
     "category": "Discount supermarket",
+    "niche": "Knives",
     "city": "Malborska 45",
     "state": "03-286",
     "country": "Poland",
@@ -2042,6 +2162,7 @@ export const mockData = [
   {
     "name": "Prisma Riihim\u00e4ki",
     "category": "Hypermarket",
+    "niche": "Knives",
     "city": "Voimalankatu 2",
     "state": "11100",
     "country": "Finland",
@@ -2059,6 +2180,7 @@ export const mockData = [
   {
     "name": "LUSINI Italia Srl",
     "category": "Restaurant supply store",
+    "niche": "Knives",
     "city": "57/A",
     "state": "39100",
     "country": "Italy",
@@ -2076,6 +2198,7 @@ export const mockData = [
   {
     "name": "\u015awiat No\u017cy",
     "category": "Kitchen supply store",
+    "niche": "Knives",
     "city": "Wa\u0142brzyska 11/142",
     "state": "02-739",
     "country": "Poland",
@@ -2093,6 +2216,7 @@ export const mockData = [
   {
     "name": "Clas Ohlson",
     "category": "Home improvement store",
+    "niche": "Knives",
     "city": "Krankroksgatan 17",
     "state": "721",
     "country": "Sweden",
@@ -2110,6 +2234,7 @@ export const mockData = [
   {
     "name": "Righeschi Country",
     "category": "Hunting store",
+    "niche": "Knives",
     "city": "20",
     "state": "50025",
     "country": "Italy",
@@ -2127,6 +2252,7 @@ export const mockData = [
   {
     "name": "Scandinavian Outdoor Shop GmbH",
     "category": "Outdoor sports store",
+    "niche": "Knives",
     "city": "Z\u00fcrichstrasse 22",
     "state": "8184",
     "country": "Switzerland",
@@ -2144,6 +2270,7 @@ export const mockData = [
   {
     "name": "HEMA Nijmegen-Dukenburg",
     "category": "Department store",
+    "niche": "Knives",
     "city": "Zwanenveld 90-126",
     "state": "6538",
     "country": "Netherlands",
@@ -2161,6 +2288,7 @@ export const mockData = [
   {
     "name": "Victorinox Factory Store Ibach",
     "category": "Store",
+    "niche": "Knives",
     "city": "Schmiedgasse 57",
     "state": "6438",
     "country": "Switzerland",
@@ -2178,6 +2306,7 @@ export const mockData = [
   {
     "name": "Weber-Stephen \u00d6sterreich GmbH",
     "category": "Grill store",
+    "niche": "Knives",
     "city": "Kienzlstra\u00dfe 17",
     "state": "4600",
     "country": "Austria",
@@ -2195,6 +2324,7 @@ export const mockData = [
   {
     "name": "Auchan",
     "category": "Hypermarket",
+    "niche": "Knives",
     "city": "Rybnicka 207",
     "state": "44-122",
     "country": "Poland",
@@ -2212,6 +2342,7 @@ export const mockData = [
   {
     "name": "IKEA Salzburg",
     "category": "Furniture store",
+    "niche": "Knives",
     "city": "Europastra\u00dfe 5",
     "state": "5020",
     "country": "Austria",
@@ -2229,6 +2360,7 @@ export const mockData = [
   {
     "name": "Clas Ohlson",
     "category": "Home improvement store",
+    "niche": "Knives",
     "city": "Dragonv\u00e4gen 86",
     "state": "194",
     "country": "Sweden",
@@ -2246,6 +2378,7 @@ export const mockData = [
   {
     "name": "Koksmesexpert",
     "category": "Knife store",
+    "niche": "Knives",
     "city": "Helvoirtseweg 124",
     "state": "5263",
     "country": "Netherlands",
@@ -2263,6 +2396,7 @@ export const mockData = [
   {
     "name": "Style de Vie Authentique B.V.",
     "category": "Wholesaler",
+    "niche": "Knives",
     "city": "De Panoven 17",
     "state": "4191",
     "country": "Netherlands",
@@ -2280,6 +2414,7 @@ export const mockData = [
   {
     "name": "tegut... gute Lebensmittel",
     "category": "Supermarket",
+    "niche": "Knives",
     "city": "Adam-Opel-Stra\u00dfe 4 - 6",
     "state": "65462",
     "country": "Germany",
@@ -2297,6 +2432,7 @@ export const mockData = [
   {
     "name": "Tomatosharp",
     "category": "Sharpening service",
+    "niche": "Knives",
     "city": "Fossegrenda 24",
     "state": "7038",
     "country": "Norway",
@@ -2314,6 +2450,7 @@ export const mockData = [
   {
     "name": "Coop",
     "category": "Supermarket",
+    "niche": "Knives",
     "city": "48",
     "state": "50121",
     "country": "Italy",
@@ -2331,6 +2468,7 @@ export const mockData = [
   {
     "name": "Lidl",
     "category": "Discount supermarket",
+    "niche": "Knives",
     "city": "Polna 23",
     "state": "62-020",
     "country": "Poland",
@@ -2348,6 +2486,7 @@ export const mockData = [
   {
     "name": "ICA Maxi",
     "category": "Grocery store",
+    "niche": "Knives",
     "city": "Kumla g\u00e5rdsv\u00e4g 30",
     "state": "145",
     "country": "Sweden",
@@ -2365,6 +2504,7 @@ export const mockData = [
   {
     "name": "Big Bazaar",
     "category": "Hypermarket",
+    "niche": "Knives",
     "city": "Ludhiana",
     "state": "Punjab",
     "country": "India",
@@ -2382,6 +2522,7 @@ export const mockData = [
   {
     "name": "Elektro Madlener GmbH",
     "category": "Electrical supply store",
+    "niche": "Knives",
     "city": "Bundesstra\u00dfe 7",
     "state": "6842",
     "country": "Austria",
@@ -2399,6 +2540,7 @@ export const mockData = [
   {
     "name": "Action",
     "category": "General store",
+    "niche": "Knives",
     "city": "Salzburger Str. 223",
     "state": "4600",
     "country": "Austria",
@@ -2416,6 +2558,7 @@ export const mockData = [
   {
     "name": "Prisma Kangasala",
     "category": "Hypermarket",
+    "niche": "Knives",
     "city": "M\u00e4kirinteentie 10",
     "state": "36240",
     "country": "Finland",
@@ -2433,6 +2576,7 @@ export const mockData = [
   {
     "name": "Handmade Knives UK - White Tiger Knives",
     "category": "Knife manufacturer",
+    "niche": "Knives",
     "city": "Regents Park",
     "state": "Southampton",
     "country": "United Kingdom",
@@ -2450,6 +2594,7 @@ export const mockData = [
   {
     "name": "Prisma Raahe",
     "category": "Hypermarket",
+    "niche": "Knives",
     "city": "Palokunnankatu 37",
     "state": "92100",
     "country": "Finland",
@@ -2467,6 +2612,7 @@ export const mockData = [
   {
     "name": "[Lager/B\u00fcro] Recon Company by Ranger Outdoor GmbH Kr\u00e4tzschmar",
     "category": "Outdoor sports store",
+    "niche": "Knives",
     "city": "Zuckerfabrik Gro\u00df Mahner 2",
     "state": "38259",
     "country": "Germany",
@@ -2484,6 +2630,7 @@ export const mockData = [
   {
     "name": "Cuchilleria Primitivo Labrador",
     "category": "Knife store",
+    "niche": "Knives",
     "city": "Ciutat Vella",
     "state": "08001",
     "country": "Spain",
@@ -2501,6 +2648,7 @@ export const mockData = [
   {
     "name": "Hema",
     "category": "Department store",
+    "niche": "Knives",
     "city": "Dorpsstraat 93",
     "state": "6871",
     "country": "Netherlands",
@@ -2518,6 +2666,7 @@ export const mockData = [
   {
     "name": "MD S.p.A.",
     "category": "Supermarket",
+    "niche": "Knives",
     "city": "Viale Europa",
     "state": "88100",
     "country": "Italy",
@@ -2535,6 +2684,7 @@ export const mockData = [
   {
     "name": "Casagrande Souvenirs \u2022 Watches Grendel",
     "category": "Souvenir store",
+    "niche": "Knives",
     "city": "Grendelstrasse 6",
     "state": "6004",
     "country": "Switzerland",
@@ -2552,6 +2702,7 @@ export const mockData = [
   {
     "name": "HomeGoods",
     "category": "Department store",
+    "niche": "Knives",
     "city": "Clovis",
     "state": "CA",
     "country": "United States",
@@ -2569,6 +2720,7 @@ export const mockData = [
   {
     "name": "South Florida Tactical Firearms",
     "category": "Gun shop",
+    "niche": "Knives",
     "city": "West Palm Beach",
     "state": "FL",
     "country": "United States",
@@ -2586,6 +2738,7 @@ export const mockData = [
   {
     "name": "Bullet Hole, Inc",
     "category": "Gun shop",
+    "niche": "Knives",
     "city": "Belleville",
     "state": "NJ",
     "country": "United States",
@@ -2603,6 +2756,7 @@ export const mockData = [
   {
     "name": "Office Depot",
     "category": "Office supply store",
+    "niche": "Knives",
     "city": "Sebring",
     "state": "FL",
     "country": "United States",
@@ -2620,6 +2774,7 @@ export const mockData = [
   {
     "name": "Out in Style, Inc.",
     "category": "Army & navy surplus shop",
+    "niche": "Knives",
     "city": "Brooklyn",
     "state": "NY",
     "country": "United States",
@@ -2637,6 +2792,7 @@ export const mockData = [
   {
     "name": "Ardmore Knives",
     "category": "Sharpening service",
+    "niche": "Knives",
     "city": "Ardmore",
     "state": "PA",
     "country": "United States",
@@ -2654,6 +2810,7 @@ export const mockData = [
   {
     "name": "P.C. Richard & Son",
     "category": "Appliance store",
+    "niche": "Knives",
     "city": "Ozone Park",
     "state": "NY",
     "country": "United States",
@@ -2671,6 +2828,7 @@ export const mockData = [
   {
     "name": "Target",
     "category": "Department store",
+    "niche": "Knives",
     "city": "Yonkers",
     "state": "NY",
     "country": "United States",
@@ -2688,6 +2846,7 @@ export const mockData = [
   {
     "name": "Tractor Supply Co.",
     "category": "Animal feed store",
+    "niche": "Knives",
     "city": "Haines City",
     "state": "FL",
     "country": "United States",
@@ -2705,6 +2864,7 @@ export const mockData = [
   {
     "name": "Gulf Coast Gun & Outdoors",
     "category": "Gun shop",
+    "niche": "Knives",
     "city": "Milton",
     "state": "FL",
     "country": "United States",
@@ -2722,6 +2882,7 @@ export const mockData = [
   {
     "name": "Tractor Supply Co.",
     "category": "Animal feed store",
+    "niche": "Knives",
     "city": "Lake Placid",
     "state": "FL",
     "country": "United States",
@@ -2739,6 +2900,7 @@ export const mockData = [
   {
     "name": "MY Tactical Promos",
     "category": "Store",
+    "niche": "Knives",
     "city": "Great Neck",
     "state": "NY",
     "country": "United States",
@@ -2756,6 +2918,7 @@ export const mockData = [
   {
     "name": "Florida Leather Gallery",
     "category": "Furniture store",
+    "niche": "Knives",
     "city": "Clearwater",
     "state": "FL",
     "country": "United States",
@@ -2773,6 +2936,7 @@ export const mockData = [
   {
     "name": "J. B. Prince Company",
     "category": "Restaurant supply store",
+    "niche": "Knives",
     "city": "New York",
     "state": "NY",
     "country": "United States",
@@ -2790,6 +2954,7 @@ export const mockData = [
   {
     "name": "The Home Depot",
     "category": "Home improvement store",
+    "niche": "Knives",
     "city": "Tampa",
     "state": "FL",
     "country": "United States",
@@ -2807,6 +2972,7 @@ export const mockData = [
   {
     "name": "Honey Badger Knives",
     "category": "Knife store",
+    "niche": "Knives",
     "city": "Unknown",
     "state": "Unknown",
     "country": "USA",
@@ -2824,6 +2990,7 @@ export const mockData = [
   {
     "name": "Sullivan Holster Shop",
     "category": "Gun shop",
+    "niche": "Knives",
     "city": "Odessa",
     "state": "FL",
     "country": "United States",
@@ -2841,6 +3008,7 @@ export const mockData = [
   {
     "name": "Foremost Army Navy Surplus",
     "category": "Army & navy surplus shop",
+    "niche": "Knives",
     "city": "Stuart",
     "state": "FL",
     "country": "United States",
@@ -2858,6 +3026,7 @@ export const mockData = [
   {
     "name": "The Home Depot",
     "category": "Home improvement store",
+    "niche": "Knives",
     "city": "Brooklyn",
     "state": "NY",
     "country": "United States",
@@ -2875,6 +3044,7 @@ export const mockData = [
   {
     "name": "Rescuestuff, Inc.",
     "category": "Uniform store",
+    "niche": "Knives",
     "city": "Peekskill",
     "state": "NY",
     "country": "United States",
@@ -2892,6 +3062,7 @@ export const mockData = [
   {
     "name": "Continental Restaurant & Bar Supply Co. Inc.",
     "category": "Restaurant supply store",
+    "niche": "Knives",
     "city": "Hempstead",
     "state": "NY",
     "country": "United States",
@@ -2909,6 +3080,7 @@ export const mockData = [
   {
     "name": "Altamont Outdoors",
     "category": "Knife store",
+    "niche": "Knives",
     "city": "Ocala",
     "state": "FL",
     "country": "United States",
@@ -2926,6 +3098,7 @@ export const mockData = [
   {
     "name": "Howard Supply",
     "category": "Hardware store",
+    "niche": "Knives",
     "city": "New York",
     "state": "NY",
     "country": "United States",
@@ -2943,6 +3116,7 @@ export const mockData = [
   {
     "name": "Williams Cutlery & Gifts",
     "category": "Cutlery store",
+    "niche": "Knives",
     "city": "San Jose",
     "state": "CA",
     "country": "United States",
@@ -2960,6 +3134,7 @@ export const mockData = [
   {
     "name": "Tractor Supply Co.",
     "category": "Animal feed store",
+    "niche": "Knives",
     "city": "Monticello",
     "state": "FL",
     "country": "United States",
@@ -2977,6 +3152,7 @@ export const mockData = [
   {
     "name": "The Victorinox Outlet",
     "category": "Knife store",
+    "niche": "Knives",
     "city": "West New York",
     "state": "NJ",
     "country": "United States",
@@ -2994,6 +3170,7 @@ export const mockData = [
   {
     "name": "Down East Seafood inc.",
     "category": "Seafood wholesaler",
+    "niche": "Knives",
     "city": "Bronx",
     "state": "NY",
     "country": "United States",
@@ -3011,6 +3188,7 @@ export const mockData = [
   {
     "name": "Academy Sports + Outdoors",
     "category": "Sporting goods store",
+    "niche": "Knives",
     "city": "Orlando",
     "state": "FL",
     "country": "United States",
@@ -3028,6 +3206,7 @@ export const mockData = [
   {
     "name": "The Gun Shoppe of Sarasota",
     "category": "Gun shop",
+    "niche": "Knives",
     "city": "Sarasota",
     "state": "FL",
     "country": "United States",
@@ -3045,6 +3224,7 @@ export const mockData = [
   {
     "name": "The Home Depot",
     "category": "Home improvement store",
+    "niche": "Knives",
     "city": "Zephyrhills",
     "state": "FL",
     "country": "United States",
@@ -3062,6 +3242,7 @@ export const mockData = [
   {
     "name": "Hunt Down",
     "category": "Sporting goods store",
+    "niche": "Knives",
     "city": "Commerce",
     "state": "CA",
     "country": "United States",
@@ -3079,6 +3260,7 @@ export const mockData = [
   {
     "name": "Howell Gun Works",
     "category": "Gun shop",
+    "niche": "Knives",
     "city": "Howell Township",
     "state": "NJ",
     "country": "United States",
@@ -3096,6 +3278,7 @@ export const mockData = [
   {
     "name": "Deepak Chopra, Inc.",
     "category": "Wholesaler",
+    "niche": "Knives",
     "city": "San Ramon",
     "state": "CA",
     "country": "United States",
@@ -3113,6 +3296,7 @@ export const mockData = [
   {
     "name": "World of cutlery",
     "category": "Cutlery store",
+    "niche": "Knives",
     "city": "Boca Raton",
     "state": "FL",
     "country": "United States",
@@ -3130,6 +3314,7 @@ export const mockData = [
   {
     "name": "ShopRite of Veterans Rd",
     "category": "Grocery store",
+    "niche": "Knives",
     "city": "Staten Island",
     "state": "NY",
     "country": "United States",
@@ -3147,6 +3332,7 @@ export const mockData = [
   {
     "name": "Arizona Custom Knives",
     "category": "Knife store",
+    "niche": "Knives",
     "city": "Ponte Vedra Beach",
     "state": "FL",
     "country": "United States",
@@ -3164,6 +3350,7 @@ export const mockData = [
   {
     "name": "Williams-Sonoma",
     "category": "Kitchen supply store",
+    "niche": "Knives",
     "city": "New York",
     "state": "NY",
     "country": "United States",
@@ -3181,6 +3368,7 @@ export const mockData = [
   {
     "name": "Tractor Supply Co.",
     "category": "Animal feed store",
+    "niche": "Knives",
     "city": "Crawfordville",
     "state": "FL",
     "country": "United States",
@@ -3198,6 +3386,7 @@ export const mockData = [
   {
     "name": "Duke's Sport Shop, Inc.",
     "category": "Sporting goods store",
+    "niche": "Knives",
     "city": "New Castle",
     "state": "PA",
     "country": "United States",
@@ -3215,6 +3404,7 @@ export const mockData = [
   {
     "name": "P.C. Richard & Son",
     "category": "Appliance store",
+    "niche": "Knives",
     "city": "Astoria",
     "state": "NY",
     "country": "United States",
@@ -3232,6 +3422,7 @@ export const mockData = [
   {
     "name": "Wooden Spoon",
     "category": "Kitchen supply store",
+    "niche": "Knives",
     "city": "Melbourne",
     "state": "FL",
     "country": "United States",
@@ -3249,6 +3440,7 @@ export const mockData = [
   {
     "name": "The Home Depot",
     "category": "Home improvement store",
+    "niche": "Knives",
     "city": "Riverview",
     "state": "FL",
     "country": "United States",
@@ -3266,6 +3458,7 @@ export const mockData = [
   {
     "name": "Belk",
     "category": "Department store",
+    "niche": "Knives",
     "city": "Winter Haven",
     "state": "FL",
     "country": "United States",
@@ -3283,6 +3476,7 @@ export const mockData = [
   {
     "name": "Kerekes Bakery & Restaurant Equipment Inc. - BakeDeco",
     "category": "Baking supply store",
+    "niche": "Knives",
     "city": "Brooklyn",
     "state": "NY",
     "country": "United States",
@@ -3300,6 +3494,7 @@ export const mockData = [
   {
     "name": "Zwilling Neighborhood Shop - Pleasantville",
     "category": "Kitchen supply store",
+    "niche": "Knives",
     "city": "Pleasantville",
     "state": "NY",
     "country": "United States",
@@ -3317,6 +3512,7 @@ export const mockData = [
   {
     "name": "Lowe's Home Improvement",
     "category": "Home improvement store",
+    "niche": "Knives",
     "city": "Orlando",
     "state": "FL",
     "country": "United States",
@@ -3334,6 +3530,7 @@ export const mockData = [
   {
     "name": "BnB Knives",
     "category": "Knife store",
+    "niche": "Knives",
     "city": "Terre Hill",
     "state": "PA",
     "country": "United States",
@@ -3351,6 +3548,7 @@ export const mockData = [
   {
     "name": "Bucks Holsters",
     "category": "Manufacturer",
+    "niche": "Knives",
     "city": "Cape Coral",
     "state": "FL",
     "country": "United States",
@@ -3368,6 +3566,7 @@ export const mockData = [
   {
     "name": "J & W Hardware Inc",
     "category": "Hardware store",
+    "niche": "Knives",
     "city": "Etters",
     "state": "PA",
     "country": "United States",
@@ -3385,6 +3584,7 @@ export const mockData = [
   {
     "name": "Sticky Holsters Inc",
     "category": "Manufacturer",
+    "niche": "Knives",
     "city": "Naples",
     "state": "FL",
     "country": "United States",
@@ -3402,6 +3602,7 @@ export const mockData = [
   {
     "name": "Coles Chadstone",
     "category": "Supermarket",
+    "niche": "Pink Salt",
     "city": "1341 Dandenong Rd",
     "state": "Chadstone",
     "country": "Australia",
@@ -3419,6 +3620,7 @@ export const mockData = [
   {
     "name": "Mick's Nuts",
     "category": "Nut store",
+    "niche": "Pink Salt",
     "city": "31 Hardgrave Rd",
     "state": "West",
     "country": "Australia",
@@ -3436,6 +3638,7 @@ export const mockData = [
   {
     "name": "HIMALAYAN SUPERMARKET",
     "category": "Grocery store",
+    "niche": "Pink Salt",
     "city": "20 Railway Cres",
     "state": "Broadmeadows",
     "country": "Australia",
@@ -3453,6 +3656,7 @@ export const mockData = [
   {
     "name": "Woolworths Surfers Paradise",
     "category": "Supermarket",
+    "niche": "Pink Salt",
     "city": "2 Cavill Ave",
     "state": "Surfers",
     "country": "Australia",
@@ -3470,6 +3674,7 @@ export const mockData = [
   {
     "name": "Coles Local St Kilda",
     "category": "Supermarket",
+    "niche": "Pink Salt",
     "city": "Acland St",
     "state": "St",
     "country": "Australia",
@@ -3487,6 +3692,7 @@ export const mockData = [
   {
     "name": "Carrara Markets",
     "category": "Market",
+    "niche": "Pink Salt",
     "city": "Gooding Dr",
     "state": "Carrara",
     "country": "Australia",
@@ -3504,6 +3710,7 @@ export const mockData = [
   {
     "name": "Coles Port Melbourne",
     "category": "Supermarket",
+    "niche": "Pink Salt",
     "city": "Liardet St",
     "state": "Port",
     "country": "Australia",
@@ -3521,6 +3728,7 @@ export const mockData = [
   {
     "name": "Coles Campbellfield",
     "category": "Supermarket",
+    "niche": "Pink Salt",
     "city": "Mahoneys Rd",
     "state": "Campbellfield",
     "country": "Australia",
@@ -3538,6 +3746,7 @@ export const mockData = [
   {
     "name": "The Cauldron of Wellbeing",
     "category": "Metaphysical supply store",
+    "niche": "Pink Salt",
     "city": "7/476 High St",
     "state": "Penrith",
     "country": "Australia",
@@ -3555,6 +3764,7 @@ export const mockData = [
   {
     "name": "Woolworths Metro Pitt St Mall",
     "category": "Supermarket",
+    "niche": "Pink Salt",
     "city": "400 George St",
     "state": "Sydney",
     "country": "Australia",
@@ -3572,6 +3782,7 @@ export const mockData = [
   {
     "name": "Coles Edgecliff",
     "category": "Supermarket",
+    "niche": "Pink Salt",
     "city": "Ocean Ave",
     "state": "Edgecliff",
     "country": "Australia",
@@ -3589,6 +3800,7 @@ export const mockData = [
   {
     "name": "Smoked BBQ Co.",
     "category": "Grill store",
+    "niche": "Pink Salt",
     "city": "2082 Gold Coast Hwy",
     "state": "Miami",
     "country": "Australia",
@@ -3606,6 +3818,7 @@ export const mockData = [
   {
     "name": "Woolworths Burleigh Heads",
     "category": "Supermarket",
+    "niche": "Pink Salt",
     "city": "149 W Burleigh Rd",
     "state": "Burleigh",
     "country": "Australia",
@@ -3623,6 +3836,7 @@ export const mockData = [
   {
     "name": "Coles Mernda",
     "category": "Supermarket",
+    "niche": "Pink Salt",
     "city": "Bridge Inn Rd",
     "state": "Mernda",
     "country": "Australia",
@@ -3640,6 +3854,7 @@ export const mockData = [
   {
     "name": "Health Nuts",
     "category": "Health food store",
+    "niche": "Pink Salt",
     "city": "82-94 Darlinghurst Rd",
     "state": "Potts",
     "country": "Australia",
@@ -3657,6 +3872,7 @@ export const mockData = [
   {
     "name": "Bunnings Capalaba",
     "category": "Home improvement store",
+    "niche": "Pink Salt",
     "city": "Pittwin Rd N",
     "state": "Capalaba",
     "country": "Australia",
@@ -3674,6 +3890,7 @@ export const mockData = [
   {
     "name": "Radhe Wholesale & Retail Harris Park",
     "category": "Indian grocery store",
+    "niche": "Pink Salt",
     "city": "8/12 Station St E",
     "state": "Harris",
     "country": "Australia",
@@ -3691,6 +3908,7 @@ export const mockData = [
   {
     "name": "Woolworths Inala",
     "category": "Supermarket",
+    "niche": "Pink Salt",
     "city": "82 Kittyhawk Ave",
     "state": "Inala",
     "country": "Australia",
@@ -3708,6 +3926,7 @@ export const mockData = [
   {
     "name": "The Salt Box",
     "category": "Health and beauty shop",
+    "niche": "Pink Salt",
     "city": "81 Lewis Rd",
     "state": "Wantirna",
     "country": "Australia",
@@ -3725,6 +3944,7 @@ export const mockData = [
   {
     "name": "Himalayan Rock Salts",
     "category": "Health and beauty shop",
+    "niche": "Pink Salt",
     "city": "131 Glen Huntly Rd",
     "state": "Elwood",
     "country": "Australia",
@@ -3742,6 +3962,7 @@ export const mockData = [
   {
     "name": "Coles Brighton Le Sands",
     "category": "Supermarket",
+    "niche": "Pink Salt",
     "city": "36 Princess St",
     "state": "Brighton-Le-Sands",
     "country": "Australia",
@@ -3759,6 +3980,7 @@ export const mockData = [
   {
     "name": "Sushi Kotobuki",
     "category": "Sushi restaurant",
+    "niche": "Pink Salt",
     "city": "3/53 Lytton Rd",
     "state": "East",
     "country": "Australia",
@@ -3776,6 +3998,7 @@ export const mockData = [
   {
     "name": "Woolworths Metro Surry Hills",
     "category": "Supermarket",
+    "niche": "Pink Salt",
     "city": "413-417 Bourke St",
     "state": "Surry",
     "country": "Australia",
@@ -3793,6 +4016,7 @@ export const mockData = [
   {
     "name": "Woolworths Coomera East",
     "category": "Supermarket",
+    "niche": "Pink Salt",
     "city": "4 Oaky Crk Rd",
     "state": "Coomera",
     "country": "Australia",
@@ -3810,6 +4034,7 @@ export const mockData = [
   {
     "name": "Gem Pier Seafood",
     "category": "Seafood market",
+    "niche": "Pink Salt",
     "city": "1 Syme St",
     "state": "Williamstown",
     "country": "Australia",
@@ -3827,6 +4052,7 @@ export const mockData = [
   {
     "name": "NSM Food Wholesalers",
     "category": "Wholesale food store",
+    "niche": "Pink Salt",
     "city": "5-11 Wendel St",
     "state": "Brunswick",
     "country": "Australia",
@@ -3844,6 +4070,7 @@ export const mockData = [
   {
     "name": "Cetnaj Lighting ~ Electrical ~ Data",
     "category": "Electrical supply store",
+    "niche": "Pink Salt",
     "city": "439 Oxley Ave",
     "state": "Redcliffe",
     "country": "Australia",
@@ -3861,6 +4088,7 @@ export const mockData = [
   {
     "name": "Coles Chatswood Chase",
     "category": "Supermarket",
+    "niche": "Pink Salt",
     "city": "345 Victoria Ave",
     "state": "Chatswood",
     "country": "Australia",
@@ -3878,6 +4106,7 @@ export const mockData = [
   {
     "name": "IGA Marketplace St Lucia",
     "category": "Grocery store",
+    "niche": "Pink Salt",
     "city": "240 Hawken Dr",
     "state": "St",
     "country": "Australia",
@@ -3895,6 +4124,7 @@ export const mockData = [
   {
     "name": "Crystal Factory & Himalayan Salt Factory",
     "category": "Metaphysical supply store",
+    "niche": "Pink Salt",
     "city": "23 Surfers Ave",
     "state": "Mermaid",
     "country": "Australia",
@@ -3912,6 +4142,7 @@ export const mockData = [
   {
     "name": "Woolworths Harbourtown (Biggera Waters)",
     "category": "Supermarket",
+    "niche": "Pink Salt",
     "city": "147-189 Brisbane Rd",
     "state": "Biggera",
     "country": "Australia",
@@ -3929,6 +4160,7 @@ export const mockData = [
   {
     "name": "Baritalia Surfers Paradise",
     "category": "Italian restaurant",
+    "niche": "Pink Salt",
     "city": "Surfers Paradise Blvd",
     "state": "Surfers",
     "country": "Australia",
@@ -3946,6 +4178,7 @@ export const mockData = [
   {
     "name": "Salt Marketing",
     "category": "Marketing agency",
+    "niche": "Pink Salt",
     "city": "17/31 Queen St",
     "state": "Melbourne",
     "country": "Australia",
@@ -3963,6 +4196,7 @@ export const mockData = [
   {
     "name": "The Crystal Company Qld",
     "category": "Metaphysical supply store",
+    "niche": "Pink Salt",
     "city": "Kiosk 20 Bryants Rd",
     "state": "Loganholme",
     "country": "Australia",
@@ -3980,6 +4214,7 @@ export const mockData = [
   {
     "name": "Woolworths Pacific Epping",
     "category": "Supermarket",
+    "niche": "Pink Salt",
     "city": "571-583 High St",
     "state": "Epping",
     "country": "Australia",
@@ -3997,6 +4232,7 @@ export const mockData = [
   {
     "name": "Coles Oakleigh",
     "category": "Supermarket",
+    "niche": "Pink Salt",
     "city": "Portman St",
     "state": "Oakleigh",
     "country": "Australia",
@@ -4014,6 +4250,7 @@ export const mockData = [
   {
     "name": "Coles Macquarie Centre",
     "category": "Supermarket",
+    "niche": "Pink Salt",
     "city": "197/223 Herring Rd",
     "state": "Macquarie",
     "country": "Australia",
@@ -4031,6 +4268,7 @@ export const mockData = [
   {
     "name": "Otto's Market Warrina",
     "category": "Fresh food market",
+    "niche": "Pink Salt",
     "city": "Shop 10/3/5 Illuka St",
     "state": "Currajong",
     "country": "Australia",
@@ -4048,6 +4286,7 @@ export const mockData = [
   {
     "name": "Woolworths Kenmore",
     "category": "Supermarket",
+    "niche": "Pink Salt",
     "city": "841 Moggill Rd",
     "state": "Kenmore",
     "country": "Australia",
@@ -4065,6 +4304,7 @@ export const mockData = [
   {
     "name": "SR Creations",
     "category": "Importer",
+    "niche": "Pink Salt",
     "city": "Unit 48/7/9 Percy St",
     "state": "Auburn",
     "country": "Australia",
@@ -4082,6 +4322,7 @@ export const mockData = [
   {
     "name": "Sarawan Spices",
     "category": "Indian grocery store",
+    "niche": "Pink Salt",
     "city": "335 Clayton Rd",
     "state": "Clayton",
     "country": "Australia",
@@ -4099,6 +4340,7 @@ export const mockData = [
   {
     "name": "Coles Greenacre",
     "category": "Supermarket",
+    "niche": "Pink Salt",
     "city": "13/19 Boronia Rd",
     "state": "Greenacre",
     "country": "Australia",
@@ -4116,6 +4358,7 @@ export const mockData = [
   {
     "name": "Woolworths Palm Waters",
     "category": "Supermarket",
+    "niche": "Pink Salt",
     "city": "155 Nineteenth Ave",
     "state": "Elanora",
     "country": "Australia",
@@ -4133,6 +4376,7 @@ export const mockData = [
   {
     "name": "Save-On-Foods",
     "category": "Grocery store",
+    "niche": "Pink Salt",
     "city": "Sidney",
     "state": "BC",
     "country": "Canada",
@@ -4150,6 +4394,7 @@ export const mockData = [
   {
     "name": "Nahm Thai Restaurant Coomera",
     "category": "Thai restaurant",
+    "niche": "Pink Salt",
     "city": "103 Foxwell Rd",
     "state": "Coomera",
     "country": "Australia",
@@ -4167,6 +4412,7 @@ export const mockData = [
   {
     "name": "Coles Local Balwyn North",
     "category": "Supermarket",
+    "niche": "Pink Salt",
     "city": "1 Doncaster Rd",
     "state": "Balwyn",
     "country": "Australia",
@@ -4184,6 +4430,7 @@ export const mockData = [
   {
     "name": "Coles Redbank Plains",
     "category": "Supermarket",
+    "niche": "Pink Salt",
     "city": "393 Redbank Plains Rd",
     "state": "Redbank",
     "country": "Australia",
@@ -4201,6 +4448,7 @@ export const mockData = [
   {
     "name": "Coles Wetherill Park",
     "category": "Supermarket",
+    "niche": "Pink Salt",
     "city": "561/563 Polding St",
     "state": "Wetherill",
     "country": "Australia",
@@ -4218,6 +4466,7 @@ export const mockData = [
   {
     "name": "Coles West Ryde",
     "category": "Supermarket",
+    "niche": "Pink Salt",
     "city": "Chatham Rd",
     "state": "West",
     "country": "Australia",
@@ -4235,6 +4484,7 @@ export const mockData = [
   {
     "name": "Lighting Style",
     "category": "Lighting store",
+    "niche": "Pink Salt",
     "city": "Unknown",
     "state": "Unknown",
     "country": "Australia",
@@ -4252,6 +4502,7 @@ export const mockData = [
   {
     "name": "Coles Chadstone",
     "category": "Supermarket",
+    "niche": "Pink-Salt",
     "city": "1341 Dandenong Rd",
     "state": "Chadstone",
     "country": "Australia",
@@ -4269,6 +4520,7 @@ export const mockData = [
   {
     "name": "Mick's Nuts",
     "category": "Nut store",
+    "niche": "Pink-Salt",
     "city": "31 Hardgrave Rd",
     "state": "West",
     "country": "Australia",
@@ -4286,6 +4538,7 @@ export const mockData = [
   {
     "name": "HIMALAYAN SUPERMARKET",
     "category": "Grocery store",
+    "niche": "Pink-Salt",
     "city": "20 Railway Cres",
     "state": "Broadmeadows",
     "country": "Australia",
@@ -4303,6 +4556,7 @@ export const mockData = [
   {
     "name": "Woolworths Surfers Paradise",
     "category": "Supermarket",
+    "niche": "Pink-Salt",
     "city": "2 Cavill Ave",
     "state": "Surfers",
     "country": "Australia",
@@ -4320,6 +4574,7 @@ export const mockData = [
   {
     "name": "Coles Local St Kilda",
     "category": "Supermarket",
+    "niche": "Pink-Salt",
     "city": "Acland St",
     "state": "St",
     "country": "Australia",
@@ -4337,6 +4592,7 @@ export const mockData = [
   {
     "name": "Carrara Markets",
     "category": "Market",
+    "niche": "Pink-Salt",
     "city": "Gooding Dr",
     "state": "Carrara",
     "country": "Australia",
@@ -4354,6 +4610,7 @@ export const mockData = [
   {
     "name": "Coles Port Melbourne",
     "category": "Supermarket",
+    "niche": "Pink-Salt",
     "city": "Liardet St",
     "state": "Port",
     "country": "Australia",
@@ -4371,6 +4628,7 @@ export const mockData = [
   {
     "name": "Coles Campbellfield",
     "category": "Supermarket",
+    "niche": "Pink-Salt",
     "city": "Mahoneys Rd",
     "state": "Campbellfield",
     "country": "Australia",
@@ -4388,6 +4646,7 @@ export const mockData = [
   {
     "name": "The Cauldron of Wellbeing",
     "category": "Metaphysical supply store",
+    "niche": "Pink-Salt",
     "city": "7/476 High St",
     "state": "Penrith",
     "country": "Australia",
@@ -4405,6 +4664,7 @@ export const mockData = [
   {
     "name": "Woolworths Metro Pitt St Mall",
     "category": "Supermarket",
+    "niche": "Pink-Salt",
     "city": "400 George St",
     "state": "Sydney",
     "country": "Australia",
@@ -4422,6 +4682,7 @@ export const mockData = [
   {
     "name": "Coles Edgecliff",
     "category": "Supermarket",
+    "niche": "Pink-Salt",
     "city": "Ocean Ave",
     "state": "Edgecliff",
     "country": "Australia",
@@ -4439,6 +4700,7 @@ export const mockData = [
   {
     "name": "Smoked BBQ Co.",
     "category": "Grill store",
+    "niche": "Pink-Salt",
     "city": "2082 Gold Coast Hwy",
     "state": "Miami",
     "country": "Australia",
@@ -4456,6 +4718,7 @@ export const mockData = [
   {
     "name": "Woolworths Burleigh Heads",
     "category": "Supermarket",
+    "niche": "Pink-Salt",
     "city": "149 W Burleigh Rd",
     "state": "Burleigh",
     "country": "Australia",
@@ -4473,6 +4736,7 @@ export const mockData = [
   {
     "name": "Coles Mernda",
     "category": "Supermarket",
+    "niche": "Pink-Salt",
     "city": "Bridge Inn Rd",
     "state": "Mernda",
     "country": "Australia",
@@ -4490,6 +4754,7 @@ export const mockData = [
   {
     "name": "Health Nuts",
     "category": "Health food store",
+    "niche": "Pink-Salt",
     "city": "82-94 Darlinghurst Rd",
     "state": "Potts",
     "country": "Australia",
@@ -4507,6 +4772,7 @@ export const mockData = [
   {
     "name": "Bunnings Capalaba",
     "category": "Home improvement store",
+    "niche": "Pink-Salt",
     "city": "Pittwin Rd N",
     "state": "Capalaba",
     "country": "Australia",
@@ -4524,6 +4790,7 @@ export const mockData = [
   {
     "name": "Radhe Wholesale & Retail Harris Park",
     "category": "Indian grocery store",
+    "niche": "Pink-Salt",
     "city": "8/12 Station St E",
     "state": "Harris",
     "country": "Australia",
@@ -4541,6 +4808,7 @@ export const mockData = [
   {
     "name": "Woolworths Inala",
     "category": "Supermarket",
+    "niche": "Pink-Salt",
     "city": "82 Kittyhawk Ave",
     "state": "Inala",
     "country": "Australia",
@@ -4558,6 +4826,7 @@ export const mockData = [
   {
     "name": "The Salt Box",
     "category": "Health and beauty shop",
+    "niche": "Pink-Salt",
     "city": "81 Lewis Rd",
     "state": "Wantirna",
     "country": "Australia",
@@ -4575,6 +4844,7 @@ export const mockData = [
   {
     "name": "Himalayan Rock Salts",
     "category": "Health and beauty shop",
+    "niche": "Pink-Salt",
     "city": "131 Glen Huntly Rd",
     "state": "Elwood",
     "country": "Australia",
@@ -4592,6 +4862,7 @@ export const mockData = [
   {
     "name": "Coles Brighton Le Sands",
     "category": "Supermarket",
+    "niche": "Pink-Salt",
     "city": "36 Princess St",
     "state": "Brighton-Le-Sands",
     "country": "Australia",
@@ -4609,6 +4880,7 @@ export const mockData = [
   {
     "name": "Sushi Kotobuki",
     "category": "Sushi restaurant",
+    "niche": "Pink-Salt",
     "city": "3/53 Lytton Rd",
     "state": "East",
     "country": "Australia",
@@ -4626,6 +4898,7 @@ export const mockData = [
   {
     "name": "Woolworths Metro Surry Hills",
     "category": "Supermarket",
+    "niche": "Pink-Salt",
     "city": "413-417 Bourke St",
     "state": "Surry",
     "country": "Australia",
@@ -4643,6 +4916,7 @@ export const mockData = [
   {
     "name": "Woolworths Coomera East",
     "category": "Supermarket",
+    "niche": "Pink-Salt",
     "city": "4 Oaky Crk Rd",
     "state": "Coomera",
     "country": "Australia",
@@ -4660,6 +4934,7 @@ export const mockData = [
   {
     "name": "Gem Pier Seafood",
     "category": "Seafood market",
+    "niche": "Pink-Salt",
     "city": "1 Syme St",
     "state": "Williamstown",
     "country": "Australia",
@@ -4677,6 +4952,7 @@ export const mockData = [
   {
     "name": "NSM Food Wholesalers",
     "category": "Wholesale food store",
+    "niche": "Pink-Salt",
     "city": "5-11 Wendel St",
     "state": "Brunswick",
     "country": "Australia",
@@ -4694,6 +4970,7 @@ export const mockData = [
   {
     "name": "Cetnaj Lighting ~ Electrical ~ Data",
     "category": "Electrical supply store",
+    "niche": "Pink-Salt",
     "city": "439 Oxley Ave",
     "state": "Redcliffe",
     "country": "Australia",
@@ -4711,6 +4988,7 @@ export const mockData = [
   {
     "name": "Coles Chatswood Chase",
     "category": "Supermarket",
+    "niche": "Pink-Salt",
     "city": "345 Victoria Ave",
     "state": "Chatswood",
     "country": "Australia",
@@ -4728,6 +5006,7 @@ export const mockData = [
   {
     "name": "IGA Marketplace St Lucia",
     "category": "Grocery store",
+    "niche": "Pink-Salt",
     "city": "240 Hawken Dr",
     "state": "St",
     "country": "Australia",
@@ -4745,6 +5024,7 @@ export const mockData = [
   {
     "name": "Crystal Factory & Himalayan Salt Factory",
     "category": "Metaphysical supply store",
+    "niche": "Pink-Salt",
     "city": "23 Surfers Ave",
     "state": "Mermaid",
     "country": "Australia",
@@ -4762,6 +5042,7 @@ export const mockData = [
   {
     "name": "Woolworths Harbourtown (Biggera Waters)",
     "category": "Supermarket",
+    "niche": "Pink-Salt",
     "city": "147-189 Brisbane Rd",
     "state": "Biggera",
     "country": "Australia",
@@ -4779,6 +5060,7 @@ export const mockData = [
   {
     "name": "Baritalia Surfers Paradise",
     "category": "Italian restaurant",
+    "niche": "Pink-Salt",
     "city": "Surfers Paradise Blvd",
     "state": "Surfers",
     "country": "Australia",
@@ -4796,6 +5078,7 @@ export const mockData = [
   {
     "name": "Salt Marketing",
     "category": "Marketing agency",
+    "niche": "Pink-Salt",
     "city": "17/31 Queen St",
     "state": "Melbourne",
     "country": "Australia",
@@ -4813,6 +5096,7 @@ export const mockData = [
   {
     "name": "The Crystal Company Qld",
     "category": "Metaphysical supply store",
+    "niche": "Pink-Salt",
     "city": "Kiosk 20 Bryants Rd",
     "state": "Loganholme",
     "country": "Australia",
@@ -4830,6 +5114,7 @@ export const mockData = [
   {
     "name": "Woolworths Pacific Epping",
     "category": "Supermarket",
+    "niche": "Pink-Salt",
     "city": "571-583 High St",
     "state": "Epping",
     "country": "Australia",
@@ -4847,6 +5132,7 @@ export const mockData = [
   {
     "name": "Coles Oakleigh",
     "category": "Supermarket",
+    "niche": "Pink-Salt",
     "city": "Portman St",
     "state": "Oakleigh",
     "country": "Australia",
@@ -4864,6 +5150,7 @@ export const mockData = [
   {
     "name": "Coles Macquarie Centre",
     "category": "Supermarket",
+    "niche": "Pink-Salt",
     "city": "197/223 Herring Rd",
     "state": "Macquarie",
     "country": "Australia",
@@ -4881,6 +5168,7 @@ export const mockData = [
   {
     "name": "Otto's Market Warrina",
     "category": "Fresh food market",
+    "niche": "Pink-Salt",
     "city": "Shop 10/3/5 Illuka St",
     "state": "Currajong",
     "country": "Australia",
@@ -4898,6 +5186,7 @@ export const mockData = [
   {
     "name": "Woolworths Kenmore",
     "category": "Supermarket",
+    "niche": "Pink-Salt",
     "city": "841 Moggill Rd",
     "state": "Kenmore",
     "country": "Australia",
@@ -4915,6 +5204,7 @@ export const mockData = [
   {
     "name": "SR Creations",
     "category": "Importer",
+    "niche": "Pink-Salt",
     "city": "Unit 48/7/9 Percy St",
     "state": "Auburn",
     "country": "Australia",
@@ -4932,6 +5222,7 @@ export const mockData = [
   {
     "name": "Sarawan Spices",
     "category": "Indian grocery store",
+    "niche": "Pink-Salt",
     "city": "335 Clayton Rd",
     "state": "Clayton",
     "country": "Australia",
@@ -4949,6 +5240,7 @@ export const mockData = [
   {
     "name": "Coles Greenacre",
     "category": "Supermarket",
+    "niche": "Pink-Salt",
     "city": "13/19 Boronia Rd",
     "state": "Greenacre",
     "country": "Australia",
@@ -4966,6 +5258,7 @@ export const mockData = [
   {
     "name": "Woolworths Palm Waters",
     "category": "Supermarket",
+    "niche": "Pink-Salt",
     "city": "155 Nineteenth Ave",
     "state": "Elanora",
     "country": "Australia",
@@ -4983,6 +5276,7 @@ export const mockData = [
   {
     "name": "Save-On-Foods",
     "category": "Grocery store",
+    "niche": "Pink-Salt",
     "city": "Sidney",
     "state": "BC",
     "country": "Canada",
@@ -5000,6 +5294,7 @@ export const mockData = [
   {
     "name": "Nahm Thai Restaurant Coomera",
     "category": "Thai restaurant",
+    "niche": "Pink-Salt",
     "city": "103 Foxwell Rd",
     "state": "Coomera",
     "country": "Australia",
@@ -5017,6 +5312,7 @@ export const mockData = [
   {
     "name": "Coles Local Balwyn North",
     "category": "Supermarket",
+    "niche": "Pink-Salt",
     "city": "1 Doncaster Rd",
     "state": "Balwyn",
     "country": "Australia",
@@ -5034,6 +5330,7 @@ export const mockData = [
   {
     "name": "Coles Redbank Plains",
     "category": "Supermarket",
+    "niche": "Pink-Salt",
     "city": "393 Redbank Plains Rd",
     "state": "Redbank",
     "country": "Australia",
@@ -5051,6 +5348,7 @@ export const mockData = [
   {
     "name": "Coles Wetherill Park",
     "category": "Supermarket",
+    "niche": "Pink-Salt",
     "city": "561/563 Polding St",
     "state": "Wetherill",
     "country": "Australia",
@@ -5068,6 +5366,7 @@ export const mockData = [
   {
     "name": "Coles West Ryde",
     "category": "Supermarket",
+    "niche": "Pink-Salt",
     "city": "Chatham Rd",
     "state": "West",
     "country": "Australia",
@@ -5085,6 +5384,7 @@ export const mockData = [
   {
     "name": "Lighting Style",
     "category": "Lighting store",
+    "niche": "Pink-Salt",
     "city": "Unknown",
     "state": "Unknown",
     "country": "Pakistan",
@@ -5102,6 +5402,7 @@ export const mockData = [
   {
     "name": "Sheetz",
     "category": "Convenience store",
+    "niche": "Surgery",
     "city": "1900 Ritner Hwy",
     "state": "Carlisle",
     "country": "PA 17013",
@@ -5119,6 +5420,7 @@ export const mockData = [
   {
     "name": "Walmart Supercenter",
     "category": "Department store",
+    "niche": "Surgery",
     "city": "250 Summit Park Dr",
     "state": "Pittsburgh",
     "country": "PA 15275",
@@ -5136,6 +5438,7 @@ export const mockData = [
   {
     "name": "Harbor Freight",
     "category": "Hardware store",
+    "niche": "Surgery",
     "city": "1800 Daisy St",
     "state": "Clearfield",
     "country": "PA 16830",
@@ -5153,6 +5456,7 @@ export const mockData = [
   {
     "name": "Michaels",
     "category": "Craft store",
+    "niche": "Surgery",
     "city": "7110 Fairlane Village Mall Suite B",
     "state": "Pottsville",
     "country": "PA 17901",
@@ -5170,6 +5474,7 @@ export const mockData = [
   {
     "name": "Michaels",
     "category": "Craft store",
+    "niche": "Surgery",
     "city": "Ridge Park Square A",
     "state": "Brooklyn",
     "country": "OH 44144",
@@ -5187,6 +5492,7 @@ export const mockData = [
   {
     "name": "Tractor Supply Co.",
     "category": "Animal feed store",
+    "niche": "Surgery",
     "city": "5133 Milford Rd",
     "state": "East",
     "country": "PA 18302",
@@ -5204,6 +5510,7 @@ export const mockData = [
   {
     "name": "Walmart Supercenter",
     "category": "Department store",
+    "niche": "Surgery",
     "city": "5900 Perkiomen Ave",
     "state": "Reading",
     "country": "PA 19606",
@@ -5221,6 +5528,7 @@ export const mockData = [
   {
     "name": "Care Plus Oxygen, Inc.",
     "category": "Medical supply store",
+    "niche": "Surgery",
     "city": "2197 High Tech Rd STE A",
     "state": "State",
     "country": "PA 16803",
@@ -5238,6 +5546,7 @@ export const mockData = [
   {
     "name": "M&K Truck Centers, Somerset",
     "category": "Truck dealer",
+    "niche": "Surgery",
     "city": "178 Lewis Dr",
     "state": "Somerset",
     "country": "PA 15501",
@@ -5255,6 +5564,7 @@ export const mockData = [
   {
     "name": "Advanced Medical Equipment, LLC",
     "category": "Medical supply store",
+    "niche": "Surgery",
     "city": "194 Wyoming St",
     "state": "Greensburg",
     "country": "PA 15601",
@@ -5272,6 +5582,7 @@ export const mockData = [
   {
     "name": "Patient Transfer Systems Inc",
     "category": "Medical supply store",
+    "niche": "Surgery",
     "city": "5456 Northwood Dr",
     "state": "Center",
     "country": "PA 18034",
@@ -5289,6 +5600,7 @@ export const mockData = [
   {
     "name": "Keystone Medical Equipment",
     "category": "Medical equipment supplier",
+    "niche": "Surgery",
     "city": "422 Center St",
     "state": "Jim",
     "country": "PA 18229",
@@ -5306,6 +5618,7 @@ export const mockData = [
   {
     "name": "Lancaster Neuroscience & Spine Associates",
     "category": "Medical clinic",
+    "niche": "Surgery",
     "city": "1671 Crooked Oak Dr 2nd Fl",
     "state": "Lancaster",
     "country": "PA 17601",
@@ -5323,6 +5636,7 @@ export const mockData = [
   {
     "name": "Tony's Hardware",
     "category": "Hardware store",
+    "niche": "Surgery",
     "city": "621 Huron Ave",
     "state": "Renovo",
     "country": "PA 17764",
@@ -5340,6 +5654,7 @@ export const mockData = [
   {
     "name": "Pappy's Vibrations",
     "category": "Musical instrument store",
+    "niche": "Surgery",
     "city": "530 N Elm St",
     "state": "Lititz",
     "country": "PA 17543",
@@ -5357,6 +5672,7 @@ export const mockData = [
   {
     "name": "Central Tool Supply Inc",
     "category": "Hardware store",
+    "niche": "Surgery",
     "city": "572 Carson St REAR",
     "state": "Hazleton",
     "country": "PA 18201",
@@ -5374,6 +5690,7 @@ export const mockData = [
   {
     "name": "Scissors & Needle, LLC",
     "category": "Clothing alteration service",
+    "niche": "Surgery",
     "city": "690 W Dekalb Pike #2092",
     "state": "King",
     "country": "PA 19406",
@@ -5391,6 +5708,7 @@ export const mockData = [
   {
     "name": "H & K Tool & Machine Co Inc",
     "category": "Tool & die shop",
+    "niche": "Surgery",
     "city": "125 Pike Cir",
     "state": "Huntingdon",
     "country": "PA 19006",
@@ -5408,6 +5726,7 @@ export const mockData = [
   {
     "name": "Allcare Medical Equipment",
     "category": "Medical supply store",
+    "niche": "Surgery",
     "city": "8348 Bustleton Ave",
     "state": "Philadelphia",
     "country": "PA 19152",
@@ -5425,6 +5744,7 @@ export const mockData = [
   {
     "name": "Labadie Looms",
     "category": "Yarn store",
+    "niche": "Surgery",
     "city": "2572 Old Philadelphia Pike",
     "state": "Bird",
     "country": "PA 17505",
@@ -5442,6 +5762,7 @@ export const mockData = [
   {
     "name": "Tractor Supply Co.",
     "category": "Animal feed store",
+    "niche": "Surgery",
     "city": "42 Eastern Mall Rd",
     "state": "Muncy",
     "country": "PA 17756",
@@ -5459,6 +5780,7 @@ export const mockData = [
   {
     "name": "Kenworth of Pennsylvania",
     "category": "Truck dealer",
+    "niche": "Surgery",
     "city": "4054 PA-308",
     "state": "Clintonville",
     "country": "PA 16372",
@@ -5476,6 +5798,7 @@ export const mockData = [
   {
     "name": "Walmart Supercenter",
     "category": "Department store",
+    "niche": "Surgery",
     "city": "167 Hogan Blvd",
     "state": "Mill",
     "country": "PA 17751",
@@ -5493,6 +5816,7 @@ export const mockData = [
   {
     "name": "Harleysville Ace Hardware",
     "category": "Hardware store",
+    "niche": "Surgery",
     "city": "467 Main St",
     "state": "Harleysville",
     "country": "PA 19438",
@@ -5510,6 +5834,7 @@ export const mockData = [
   {
     "name": "S & W Performance Group",
     "category": "Racing car parts store",
+    "niche": "Surgery",
     "city": "11 Mennonite Church Rd",
     "state": "Spring",
     "country": "PA 19475",
@@ -5527,6 +5852,7 @@ export const mockData = [
   {
     "name": "Walmart Supercenter",
     "category": "Department store",
+    "niche": "Surgery",
     "city": "390 PA-315",
     "state": "Pittston",
     "country": "PA 18640",
@@ -5544,6 +5870,7 @@ export const mockData = [
   {
     "name": "Ace Hardware Thrift Supply",
     "category": "Hardware store",
+    "niche": "Surgery",
     "city": "100 Indiana Ave",
     "state": "Kittanning",
     "country": "PA 16201",
@@ -5561,6 +5888,7 @@ export const mockData = [
   {
     "name": "Gaberseck Pipe Supply & Hardware",
     "category": "Hardware store",
+    "niche": "Surgery",
     "city": "Ice Mine Rd",
     "state": "Coudersport",
     "country": "PA 16915",
@@ -5578,6 +5906,7 @@ export const mockData = [
   {
     "name": "Walmart Supercenter",
     "category": "Department store",
+    "niche": "Surgery",
     "city": "373 Benner Pike",
     "state": "State",
     "country": "PA 16801",
@@ -5595,6 +5924,7 @@ export const mockData = [
   {
     "name": "American HomePatient",
     "category": "Home health care service",
+    "niche": "Surgery",
     "city": "124 S Claude A Lord Blvd",
     "state": "Pottsville",
     "country": "PA 17901",
@@ -5612,6 +5942,7 @@ export const mockData = [
   {
     "name": "Staples",
     "category": "Office supply store",
+    "niche": "Surgery",
     "city": "1005 Scott Town Center",
     "state": "Bloomsburg",
     "country": "PA 17815",
@@ -5629,6 +5960,7 @@ export const mockData = [
   {
     "name": "Spangler Subaru",
     "category": "Subaru dealer",
+    "niche": "Surgery",
     "city": "219 Alvin St",
     "state": "Johnstown",
     "country": "PA 15904",
@@ -5646,6 +5978,7 @@ export const mockData = [
   {
     "name": "Bellefonte True Value Rental",
     "category": "Hardware store",
+    "niche": "Surgery",
     "city": "1076 E Bishop St",
     "state": "Bellefonte",
     "country": "PA 16823",
@@ -5663,6 +5996,7 @@ export const mockData = [
   {
     "name": "Rezk Medical Supply - Punxsutawney, PA, an AdaptHealth company",
     "category": "Medical supply store",
+    "niche": "Surgery",
     "city": "109 E Mahoning St",
     "state": "Punxsutawney",
     "country": "PA 15767",
@@ -5680,6 +6014,7 @@ export const mockData = [
   {
     "name": "P A Medical Supply Inc",
     "category": "Medical supply store",
+    "niche": "Surgery",
     "city": "360 Quaker Rd",
     "state": "Queensbury",
     "country": "NY 12804",
@@ -5697,6 +6032,7 @@ export const mockData = [
   {
     "name": "Scranton Grinder & Hardware",
     "category": "Lawn mower store",
+    "niche": "Surgery",
     "city": "1020 Hemlock St",
     "state": "Scranton",
     "country": "PA 18505",
@@ -5714,6 +6050,7 @@ export const mockData = [
   {
     "name": "Lawall Prosthetics & Orthotics",
     "category": "Orthotics & prosthetics service",
+    "niche": "Surgery",
     "city": "1822 Augustine Cut Off",
     "state": "Wilmington",
     "country": "DE 19803",
@@ -5731,6 +6068,7 @@ export const mockData = [
   {
     "name": "Seth D. Krum, DO",
     "category": "Orthopedic surgeon",
+    "niche": "Surgery",
     "city": "2600 Philmont Ave Suite 304",
     "state": "Huntingdon",
     "country": "PA 19006",
@@ -5748,6 +6086,7 @@ export const mockData = [
   {
     "name": "Apex True Value Hardware",
     "category": "Hardware store",
+    "niche": "Surgery",
     "city": "600 Greene St",
     "state": "Marietta",
     "country": "OH 45750",
@@ -5765,6 +6104,7 @@ export const mockData = [
   {
     "name": "Uramix Inc",
     "category": "Medical supply store",
+    "niche": "Surgery",
     "city": "272 N Lansdowne Ave",
     "state": "Lansdowne",
     "country": "PA 19050",
@@ -5782,6 +6122,7 @@ export const mockData = [
   {
     "name": "Cracker Barrel Old Country Store",
     "category": "American restaurant",
+    "niche": "Surgery",
     "city": "1215 E Lancaster Ave",
     "state": "Downingtown",
     "country": "PA 19335",
@@ -5799,6 +6140,7 @@ export const mockData = [
   {
     "name": "Faulkner Chevrolet Lancaster",
     "category": "Chevrolet dealer",
+    "niche": "Surgery",
     "city": "2000 Bennet Ave",
     "state": "Lancaster",
     "country": "PA 17601",
@@ -5816,6 +6158,7 @@ export const mockData = [
   {
     "name": "Nothing Bundt Cakes",
     "category": "Bakery",
+    "niche": "Surgery",
     "city": "2838 S Eagle Rd",
     "state": "Newtown",
     "country": "PA 18940",
@@ -5833,6 +6176,7 @@ export const mockData = [
   {
     "name": "Target",
     "category": "Department store",
+    "niche": "Surgery",
     "city": "315 Colonnade Blvd",
     "state": "State",
     "country": "PA 16803",
@@ -5850,6 +6194,7 @@ export const mockData = [
   {
     "name": "Below Bluebook Auto Sales",
     "category": "Car dealer",
+    "niche": "Surgery",
     "city": "2451 Paxton St",
     "state": "Harrisburg",
     "country": "PA 17111",
@@ -5867,6 +6212,7 @@ export const mockData = [
   {
     "name": "Tractor Supply Co.",
     "category": "Animal feed store",
+    "niche": "Surgery",
     "city": "550 Terry Rich Blvd",
     "state": "St",
     "country": "PA 17970",
@@ -5884,6 +6230,7 @@ export const mockData = [
   {
     "name": "Specialty Medical Products Inc",
     "category": "Medical supply store",
+    "niche": "Surgery",
     "city": "149 W King St",
     "state": "Malvern",
     "country": "PA 19355",
@@ -5901,6 +6248,7 @@ export const mockData = [
   {
     "name": "Target",
     "category": "Department store",
+    "niche": "Surgery",
     "city": "6000 Sawmill Rd",
     "state": "Dublin",
     "country": "OH 43017",
@@ -5918,6 +6266,7 @@ export const mockData = [
   {
     "name": "Subaru of Wyoming Valley",
     "category": "Subaru dealer",
+    "niche": "Surgery",
     "city": "1470 PA-315",
     "state": "Plains",
     "country": "PA 18702",
@@ -5935,6 +6284,7 @@ export const mockData = [
   {
     "name": "Farm Equipment",
     "category": "Farm",
+    "niche": "Surgery",
     "city": "98 Old Leacock Rd",
     "state": "Ronks",
     "country": "PA 17572",
@@ -5952,6 +6302,7 @@ export const mockData = [
   {
     "name": "ShopRite of Forest & Richmond",
     "category": "Grocery store",
+    "niche": "Surgery Equip",
     "city": "985 Richmond Ave",
     "state": "Staten",
     "country": "NY 10314",
@@ -5969,6 +6320,7 @@ export const mockData = [
   {
     "name": "Texas Band & Orchestra",
     "category": "Music store",
+    "niche": "Surgery Equip",
     "city": "301 N McColl Rd",
     "state": "McAllen",
     "country": "TX 78501",
@@ -5986,6 +6338,7 @@ export const mockData = [
   {
     "name": "Blick Art Materials",
     "category": "Art supply store",
+    "niche": "Surgery Equip",
     "city": "443 Broadway",
     "state": "New",
     "country": "NY 10013",
@@ -6003,6 +6356,7 @@ export const mockData = [
   {
     "name": "Pate's Hardware",
     "category": "Hardware store",
+    "niche": "Surgery Equip",
     "city": "633 N Fannin St",
     "state": "De",
     "country": "TX 76444",
@@ -6020,6 +6374,7 @@ export const mockData = [
   {
     "name": "Garland Dental Equipment Services",
     "category": "Dental supply store",
+    "niche": "Surgery Equip",
     "city": "3751 Cavalier Dr",
     "state": "Garland",
     "country": "TX 75042",
@@ -6037,6 +6392,7 @@ export const mockData = [
   {
     "name": "Thorn Music Center",
     "category": "Musical instrument store",
+    "niche": "Surgery Equip",
     "city": "404 University Dr E # A",
     "state": "College",
     "country": "TX 77840",
@@ -6054,6 +6410,7 @@ export const mockData = [
   {
     "name": "Sterilization Equipment",
     "category": "Surgery Equip",
+    "niche": "Surgery Equip",
     "city": "21 Wilbraham St",
     "state": "Palmer",
     "country": "MA 01069",
@@ -6071,6 +6428,7 @@ export const mockData = [
   {
     "name": "Tandy Leather Hartford - 105",
     "category": "Craft store",
+    "niche": "Surgery Equip",
     "city": "119 Webster Square Rd",
     "state": "Berlin",
     "country": "CT 06037",
@@ -6088,6 +6446,7 @@ export const mockData = [
   {
     "name": "Texas Medical Technology",
     "category": "Manufacturer",
+    "niche": "Surgery Equip",
     "city": "1111 Gillingham Ln",
     "state": "Sugar",
     "country": "TX 77478",
@@ -6105,6 +6464,7 @@ export const mockData = [
   {
     "name": "Direct Source Products",
     "category": "Manufacturer",
+    "niche": "Surgery Equip",
     "city": "1200 Lakeside Pkwy #350",
     "state": "Flower",
     "country": "TX 75028",
@@ -6122,6 +6482,7 @@ export const mockData = [
   {
     "name": "Serenity Knives",
     "category": "Knife store",
+    "niche": "Surgery Equip",
     "city": "410 Harvard St",
     "state": "Houston",
     "country": "TX 77007",
@@ -6139,6 +6500,7 @@ export const mockData = [
   {
     "name": "Legacy Sod and Bulk Materials, LLC",
     "category": "Sod supplier",
+    "niche": "Surgery Equip",
     "city": "7980 FM753",
     "state": "Athens",
     "country": "TX 75751",
@@ -6156,6 +6518,7 @@ export const mockData = [
   {
     "name": "Winston Water Cooler LTD",
     "category": "Plumbing supply store",
+    "niche": "Surgery Equip",
     "city": "15605 Tacon Ln",
     "state": "Pflugerville",
     "country": "TX 78660",
@@ -6173,6 +6536,7 @@ export const mockData = [
   {
     "name": "Walmart Supercenter",
     "category": "Department store",
+    "niche": "Surgery Equip",
     "city": "326 W Main St",
     "state": "Freehold",
     "country": "NJ 07728",
@@ -6190,6 +6554,7 @@ export const mockData = [
   {
     "name": "Staples",
     "category": "Office supply store",
+    "niche": "Surgery Equip",
     "city": "2981-2991 Hempstead Tpke",
     "state": "Levittown",
     "country": "NY 11756",
@@ -6207,6 +6572,7 @@ export const mockData = [
   {
     "name": "A Plus Medical Equipment",
     "category": "Oxygen equipment supplier",
+    "niche": "Surgery Equip",
     "city": "4020 Rhea Rd Suite #5A",
     "state": "Wichita",
     "country": "TX 76308",
@@ -6224,6 +6590,7 @@ export const mockData = [
   {
     "name": "Sam's Club",
     "category": "Warehouse club",
+    "niche": "Surgery Equip",
     "city": "1200 E Spring Creek Pkwy",
     "state": "Plano",
     "country": "TX 75074",
@@ -6241,6 +6608,7 @@ export const mockData = [
   {
     "name": "Target",
     "category": "Department store",
+    "niche": "Surgery Equip",
     "city": "600 Broadway",
     "state": "New",
     "country": "NY 10012",
@@ -6258,6 +6626,7 @@ export const mockData = [
   {
     "name": "Garage Door Specialists",
     "category": "Garage door supplier",
+    "niche": "Surgery Equip",
     "city": "29620 I-10 Suite 193",
     "state": "Boerne",
     "country": "TX 78006",
@@ -6275,6 +6644,7 @@ export const mockData = [
   {
     "name": "Staples",
     "category": "Office supply store",
+    "niche": "Surgery Equip",
     "city": "535 Morgan Ave",
     "state": "Brooklyn",
     "country": "NY 11222",
@@ -6292,6 +6662,7 @@ export const mockData = [
   {
     "name": "Walmart Supercenter",
     "category": "Department store",
+    "niche": "Surgery Equip",
     "city": "60 Fairgrounds Mkt Pl",
     "state": "Skowhegan",
     "country": "ME 04976",
@@ -6309,6 +6680,7 @@ export const mockData = [
   {
     "name": "Staples",
     "category": "Office supply store",
+    "niche": "Surgery Equip",
     "city": "2933 Vauxhall Rd Suite 7 Suite 7",
     "state": "Vauxhall",
     "country": "NJ 07088",
@@ -6326,6 +6698,7 @@ export const mockData = [
   {
     "name": "Doctor's Creek Marine",
     "category": "Boat repair shop",
+    "niche": "Surgery Equip",
     "city": "1710 Clarksville St",
     "state": "Paris",
     "country": "TX 75460",
@@ -6343,6 +6716,7 @@ export const mockData = [
   {
     "name": "Southern Supply House",
     "category": "Oil field equipment supplier",
+    "niche": "Surgery Equip",
     "city": "631 TX-31",
     "state": "Kilgore",
     "country": "TX 75662",
@@ -6360,6 +6734,7 @@ export const mockData = [
   {
     "name": "Kensington Surgical Inc",
     "category": "Surgical supply store",
+    "niche": "Surgery Equip",
     "city": "2921 Brown Trail #235",
     "state": "Bedford",
     "country": "TX 76021",
@@ -6377,6 +6752,7 @@ export const mockData = [
   {
     "name": "Target",
     "category": "Department store",
+    "niche": "Surgery Equip",
     "city": "7101 Tonnelle Ave",
     "state": "North",
     "country": "NJ 07047",
@@ -6394,6 +6770,7 @@ export const mockData = [
   {
     "name": "Bass Pro Shops",
     "category": "Sporting goods store",
+    "niche": "Surgery Equip",
     "city": "710 Horatio St",
     "state": "Utica",
     "country": "NY 13502",
@@ -6411,6 +6788,7 @@ export const mockData = [
   {
     "name": "Smith Racecraft",
     "category": "Auto machine shop",
+    "niche": "Surgery Equip",
     "city": "4102 W Ledbetter Dr",
     "state": "Dallas",
     "country": "TX 75233",
@@ -6428,6 +6806,7 @@ export const mockData = [
   {
     "name": "ACG Medical Supply - Bedford Showroom",
     "category": "Medical supply store",
+    "niche": "Surgery Equip",
     "city": "2101 Harwood Rd Suite 128",
     "state": "Bedford",
     "country": "TX 76021",
@@ -6445,6 +6824,7 @@ export const mockData = [
   {
     "name": "Bee Cave Home Medical Equipment",
     "category": "Medical equipment supplier",
+    "niche": "Surgery Equip",
     "city": "3698 Ranch Rd 620 S Suite 111",
     "state": "Austin",
     "country": "TX 78738",
@@ -6462,6 +6842,7 @@ export const mockData = [
   {
     "name": "Walmart Supercenter",
     "category": "Department store",
+    "niche": "Surgery Equip",
     "city": "250 Summit Park Dr",
     "state": "Pittsburgh",
     "country": "PA 15275",
@@ -6479,6 +6860,7 @@ export const mockData = [
   {
     "name": "Surgimedics",
     "category": "Surgical supply store",
+    "niche": "Surgery Equip",
     "city": "7027 Fairgrounds Pkwy",
     "state": "San",
     "country": "TX 78238",
@@ -6496,6 +6878,7 @@ export const mockData = [
   {
     "name": "Staples",
     "category": "Office supply store",
+    "niche": "Surgery Equip",
     "city": "3650 Long Beach Rd",
     "state": "Oceanside",
     "country": "NY 11572",
@@ -6513,6 +6896,7 @@ export const mockData = [
   {
     "name": "Midwest Dental Houston, TX",
     "category": "Dental supply store",
+    "niche": "Surgery Equip",
     "city": "3698 Westchase Dr",
     "state": "Houston",
     "country": "TX 77042",
@@ -6530,6 +6914,7 @@ export const mockData = [
   {
     "name": "Tmi-Texas Medical Industries",
     "category": "Medical supply store",
+    "niche": "Surgery Equip",
     "city": "1409 Industrial Dr",
     "state": "Royse",
     "country": "TX 75189",
@@ -6547,6 +6932,7 @@ export const mockData = [
   {
     "name": "Cadillac of Las Vegas",
     "category": "Cadillac dealer",
+    "niche": "Surgery Equip",
     "city": "5185 W Sahara Ave",
     "state": "Las",
     "country": "NV 89146",
@@ -6564,6 +6950,7 @@ export const mockData = [
   {
     "name": "Exxon",
     "category": "Gas station",
+    "niche": "Surgery Equip",
     "city": "I-10",
     "state": "McCamey",
     "country": "TX 79752",
@@ -6581,6 +6968,7 @@ export const mockData = [
   {
     "name": "AeroCare Express",
     "category": "Medical supply store",
+    "niche": "Surgery Equip",
     "city": "3122 N 1st St",
     "state": "Abilene",
     "country": "TX 79603",
@@ -6598,6 +6986,7 @@ export const mockData = [
   {
     "name": "Advanced Medical Supply",
     "category": "Medical supply store",
+    "niche": "Surgery Equip",
     "city": "4750 S Colony Blvd #118",
     "state": "The",
     "country": "TX 75056",
@@ -6615,6 +7004,7 @@ export const mockData = [
   {
     "name": "The Needle Works",
     "category": "Needlework shop",
+    "niche": "Surgery Equip",
     "city": "4401 Medical Pkwy",
     "state": "Austin",
     "country": "TX 78756",
@@ -6632,6 +7022,7 @@ export const mockData = [
   {
     "name": "Kerrville Medical Equipment",
     "category": "Medical equipment supplier",
+    "niche": "Surgery Equip",
     "city": "1000 Sidney Baker St S",
     "state": "Kerrville",
     "country": "TX 78028",
@@ -6649,6 +7040,7 @@ export const mockData = [
   {
     "name": "AeroCare Home Medical Equipment",
     "category": "Medical supply store",
+    "niche": "Surgery Equip",
     "city": "1901 Ramcon Dr",
     "state": "Temple",
     "country": "TX 76504",
@@ -6666,6 +7058,7 @@ export const mockData = [
   {
     "name": "Walmart Supercenter",
     "category": "Department store",
+    "niche": "Surgery Equip",
     "city": "233 Shoemaker Rd",
     "state": "Pottstown",
     "country": "PA 19464",
@@ -6683,6 +7076,7 @@ export const mockData = [
   {
     "name": "Harbor Freight",
     "category": "Hardware store",
+    "niche": "Surgery Equip",
     "city": "2729 New Boston Rd",
     "state": "Texarkana",
     "country": "TX 75501",
@@ -6700,6 +7094,7 @@ export const mockData = [
   {
     "name": "Walmart Supercenter",
     "category": "Department store",
+    "niche": "Surgery Equip",
     "city": "1640 S Galena Ave",
     "state": "Dixon",
     "country": "IL 61021",
@@ -6717,6 +7112,7 @@ export const mockData = [
   {
     "name": "Ricciardi Brothers | Your Local Benjamin Moore Paint Store",
     "category": "Paint store",
+    "niche": "Surgery Equip",
     "city": "28 South St",
     "state": "New",
     "country": "NJ 07974",
@@ -6734,6 +7130,7 @@ export const mockData = [
   {
     "name": "Walmart Supercenter",
     "category": "Department store",
+    "niche": "Surgery Equip",
     "city": "1515 Bethlehem Pike",
     "state": "Hatfield",
     "country": "PA 19440",
@@ -6751,6 +7148,7 @@ export const mockData = [
   {
     "name": "Pep Boys",
     "category": "Tire shop",
+    "niche": "Surgery Equip",
     "city": "7208 Highway 80 West",
     "state": "Fort",
     "country": "TX 76116",
@@ -6768,6 +7166,7 @@ export const mockData = [
   {
     "name": "Glenn E. Thomas Dodge Chrysler Jeep",
     "category": "Car dealer",
+    "niche": "Surgery Equip",
     "city": "2100 E Spring St",
     "state": "Signal",
     "country": "CA 90755",
@@ -6785,6 +7184,7 @@ export const mockData = [
   {
     "name": "Melody's Traditional Music",
     "category": "Sheet music store",
+    "niche": "Surgery Equip",
     "city": "21626 Gentry Rd",
     "state": "Cypress",
     "country": "TX 77429",
