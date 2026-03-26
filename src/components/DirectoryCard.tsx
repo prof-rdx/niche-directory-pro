@@ -1,4 +1,3 @@
-import { motion } from 'framer-motion';
 import { Star, MapPin, Globe, Mail, MessageCircle } from 'lucide-react';
 
 interface DirectoryCardProps {

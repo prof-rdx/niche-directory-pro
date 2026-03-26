@@ -1,15 +1,16 @@
-import { Database, Lock } from 'lucide-react';
+import { Database, Eye } from 'lucide-react';
 
 interface DatasetVaultProps {
-  onUnlock: (datasetName: string) => void;
+  onView: (datasetName: string) => void;
 }
 
-export default function DatasetVault({ onUnlock }: DatasetVaultProps) {
+export default function DatasetVault({ onView }: DatasetVaultProps) {
   const datasets = [
-    { name: "Sialkot Sports Wear Exporters", records: "12,450+", desc: "Direct manufacturing contacts in Pakistan's primary sports hub.", tag: "SPORTS" },
-    { name: "Custom Knives (USA/EU)", records: "1,800+", desc: "High-end tactical and kitchen knife retailers.", tag: "KNIVES" },
-    { name: "Himalayan Pink Salt", records: "3,200+", desc: "Australian and US wholesale distributor indices.", tag: "SALT" },
-    { name: "Surgical Equipment", records: "5,100+", desc: "B2B medical supply chains globally.", tag: "MEDICAL" }
+    { name: "Sports Wear", records: "12,450+", desc: "Direct manufacturing contacts in Pakistan's primary sports hub.", tag: "SPORTS" },
+    { name: "Knives", records: "1,800+", desc: "High-end tactical and kitchen knife retailers.", tag: "KNIVES" },
+    { name: "Pink Salt", records: "3,200+", desc: "Australian and US wholesale distributor indices.", tag: "SALT" },
+    { name: "Surgery Equip", records: "5,100+", desc: "B2B medical supply chains globally.", tag: "MEDICAL" },
+    { name: "Archery", records: "1,450+", desc: "Archery retail chains and distributors in EU & USA.", tag: "ARCHERY" }
   ];
 
   return (
@@ -34,10 +35,10 @@ export default function DatasetVault({ onUnlock }: DatasetVaultProps) {
               </div>
               
               <button 
-                onClick={() => onUnlock(ds.name)}
+                onClick={() => onView(ds.name)}
                 className="flex items-center gap-1.5 bg-primary/10 hover:bg-primary/20 text-primary px-3 py-1.5 rounded-md text-xs font-bold transition-colors border border-primary/20"
               >
-                <Lock className="w-3 h-3" /> Get Dataset
+                <Eye className="w-3 h-3" /> View Data
               </button>
             </div>
           </div>

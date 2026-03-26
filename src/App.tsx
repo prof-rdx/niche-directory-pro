@@ -5,7 +5,6 @@ import Sidebar from './components/Sidebar';
 import DownloadModal from './components/DownloadModal';
 import DataTable from './components/DataTable';
 import DashboardStats from './components/DashboardStats';
-import ValueProps from './components/ValueProps';
 import DatasetVault from './components/DatasetVault';
 import { AnimatePresence } from 'framer-motion';
 import { Search } from 'lucide-react';
@@ -14,6 +13,7 @@ function App() {
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedCountry, setSelectedCountry] = useState('All');
   const [selectedCategory, setSelectedCategory] = useState('All');
+  const [selectedNiche, setSelectedNiche] = useState('All');
   const [minRating, setMinRating] = useState(0);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [activeDataset, setActiveDataset] = useState('Complete Database');
@@ -30,14 +30,15 @@ function App() {
       const matchesSearch = item.name.toLowerCase().includes(searchTerm.toLowerCase());
       const matchesCountry = selectedCountry === 'All' || item.country === selectedCountry;
       const matchesCategory = selectedCategory === 'All' || item.category === selectedCategory;
+      const matchesNiche = selectedNiche === 'All' || item.niche === selectedNiche;
       const matchesRating = item.rating >= minRating;
       const matchesEmail = !filters.email || item.hasEmail;
       const matchesWhatsapp = !filters.whatsapp || item.hasWhatsapp;
       const matchesSocial = !filters.social || (item.hasLinkedin || item.hasInstagram);
       
-      return matchesSearch && matchesCountry && matchesCategory && matchesRating && matchesEmail && matchesWhatsapp && matchesSocial;
+      return matchesSearch && matchesCountry && matchesCategory && matchesNiche && matchesRating && matchesEmail && matchesWhatsapp && matchesSocial;
     });
-  }, [searchTerm, selectedCountry, selectedCategory, minRating, filters]);
+  }, [searchTerm, selectedCountry, selectedCategory, selectedNiche, minRating, filters]);
 
   return (
     <div className="min-h-screen flex flex-col pt-6 pb-12 px-4 sm:px-6 lg:px-8">
@@ -87,15 +88,14 @@ function App() {
           />
         </div>
 
-        {/* Directory Grid */}
+        {/* Main Interface */}
         <div className="w-full lg:w-3/4 flex flex-col gap-6">
           
-          <ValueProps />
-
           {/* Specific Target Datasets */}
-          <DatasetVault onUnlock={(name) => {
-            setActiveDataset(name);
-            setIsModalOpen(true);
+          <DatasetVault onView={(name) => {
+            setSelectedNiche(name);
+            setSelectedCountry('All');
+            setSelectedCategory('All');
           }} />
 
           {/* Search Bar */}
