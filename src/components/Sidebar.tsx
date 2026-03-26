@@ -1,90 +1,116 @@
-import { Filter, Star } from 'lucide-react';
+import { Filter, Star, MapPin, Building2, CheckSquare, Square, Mail, MessageCircle } from 'lucide-react';
 
-interface Props {
-  regions: string[];
+interface SidebarProps {
   categories: string[];
-  selectedRegion: string;
-  setSelectedRegion: (r: string) => void;
+  countries: string[];
   selectedCategory: string;
-  setSelectedCategory: (c: string) => void;
+  setSelectedCategory: (category: string) => void;
+  selectedCountry: string;
+  setSelectedCountry: (country: string) => void;
   minRating: number;
-  setMinRating: (r: number) => void;
+  setMinRating: (rating: number) => void;
+  filters: { email: boolean; whatsapp: boolean; social: boolean };
+  setFilters: React.Dispatch<React.SetStateAction<{ email: boolean; whatsapp: boolean; social: boolean }>>;
 }
 
-export default function Sidebar({
-  regions,
-  categories,
-  selectedRegion,
-  setSelectedRegion,
-  selectedCategory,
-  setSelectedCategory,
-  minRating,
-  setMinRating
-}: Props) {
+export default function Sidebar({ 
+  categories, 
+  countries, 
+  selectedCategory, 
+  setSelectedCategory, 
+  selectedCountry,
+  setSelectedCountry,
+  minRating, 
+  setMinRating,
+  filters,
+  setFilters
+}: SidebarProps) {
+  
+  const toggleFilter = (key: keyof typeof filters) => {
+    setFilters(prev => ({ ...prev, [key]: !prev[key] }));
+  };
+
   return (
-    <div className="glass-panel p-6 sticky top-6">
-      <div className="flex items-center gap-2 mb-6 border-b border-white/10 pb-4">
+    <aside className="glass-panel p-6 h-full border border-white/5">
+      <div className="flex items-center gap-2 mb-8 border-b border-white/10 pb-4">
         <Filter className="w-5 h-5 text-primary" />
-        <h2 className="text-xl font-bold">Filters</h2>
+        <h2 className="text-xl font-bold uppercase tracking-wider text-white">TAM Builder</h2>
       </div>
 
-      {/* Region Filter */}
-      <div className="mb-6">
-        <label className="block text-sm font-medium text-text/80 mb-2">Region</label>
-        <select 
-          value={selectedRegion}
-          onChange={(e) => setSelectedRegion(e.target.value)}
-          className="w-full bg-surface border border-white/10 rounded-lg p-2.5 text-white focus:ring-2 focus:ring-primary outline-none transition-all"
-        >
-          {regions.map(r => (
-            <option key={r} value={r}>{r}</option>
-          ))}
-        </select>
-      </div>
-
-      {/* Category Filter */}
-      <div className="mb-6">
-        <label className="block text-sm font-medium text-text/80 mb-2">Category</label>
+      {/* Target Dataset Filters */}
+      <div className="mb-8">
+        <h3 className="text-xs font-bold text-text/50 uppercase tracking-widest mb-3 flex items-center gap-2">
+          <Building2 className="w-3.5 h-3.5" /> Target Niche
+        </h3>
         <select 
           value={selectedCategory}
           onChange={(e) => setSelectedCategory(e.target.value)}
-          className="w-full bg-surface border border-white/10 rounded-lg p-2.5 text-white focus:ring-2 focus:ring-primary outline-none transition-all"
+          className="w-full bg-[#161B22] border border-[#30363D] text-[#C9D1D9] text-sm rounded-md p-2.5 outline-none focus:border-primary transition-colors appearance-none"
         >
-          {categories.map(c => (
-            <option key={c} value={c}>{c}</option>
-          ))}
+          {categories.map(c => <option key={c} value={c}>{c}</option>)}
         </select>
       </div>
 
-      {/* Rating Filter className="mb-6" */}
-      <div className="mb-6">
-         <label className="block text-sm font-medium text-text/80 mb-2">Min Rating</label>
-         <div className="flex items-center justify-between mt-2">
-            {[0, 3, 4, 4.5, 5].map(rating => (
-              <button
-                key={rating}
-                onClick={() => setMinRating(rating)}
-                className={`flex flex-col items-center justify-center p-2 rounded-lg border transition-all ${
-                  minRating === rating 
-                    ? 'border-primary bg-primary/10 text-primary' 
-                    : 'border-white/10 bg-surface text-text hover:border-white/20'
-                }`}
-              >
-                <div className="flex items-center gap-1 text-xs">
-                  {rating === 0 ? 'All' : rating}
-                  {rating !== 0 && <Star className="w-3 h-3 fill-current" />}
-                </div>
-              </button>
-            ))}
-         </div>
+      <div className="mb-8">
+        <h3 className="text-xs font-bold text-text/50 uppercase tracking-widest mb-3 flex items-center gap-2">
+          <MapPin className="w-3.5 h-3.5" /> Geo-Fencing
+        </h3>
+        <select 
+          value={selectedCountry}
+          onChange={(e) => setSelectedCountry(e.target.value)}
+          className="w-full bg-[#161B22] border border-[#30363D] text-[#C9D1D9] text-sm rounded-md p-2.5 outline-none focus:border-primary transition-colors appearance-none"
+        >
+          {countries.map(c => <option key={c} value={c}>{c}</option>)}
+        </select>
       </div>
 
-      {/* Database Stats Promo */}
-      <div className="mt-8 p-4 bg-primary/5 border border-primary/20 rounded-xl relative overflow-hidden group">
-        <div className="absolute top-0 right-0 w-16 h-16 bg-primary/20 rounded-full blur-xl transform translate-x-1/2 -translate-y-1/2" />
-        <h4 className="text-primary font-bold text-sm mb-1 uppercase tracking-wide">Pro Tip</h4>
-        <p className="text-xs text-text/80">Need custom scraping or a specific niche? Download the full dataset to get in touch!</p>
+      {/* Rating Filter */}
+      <div className="mb-8">
+        <h3 className="text-xs font-bold text-text/50 uppercase tracking-widest mb-3 flex items-center gap-2">
+          <Star className="w-3.5 h-3.5" /> Minimum Rating
+        </h3>
+        <div className="flex flex-col gap-2">
+          {[0, 4, 4.5].map(rating => (
+            <label key={rating} className="flex items-center gap-2 cursor-pointer group">
+              <input 
+                type="radio" 
+                name="rating" 
+                className="hidden" 
+                checked={minRating === rating}
+                onChange={() => setMinRating(rating)}
+              />
+              <div className={`w-4 h-4 rounded-full border flex items-center justify-center transition-colors ${minRating === rating ? 'border-primary' : 'border-[#30363D] group-hover:border-primary/50'}`}>
+                {minRating === rating && <div className="w-2 h-2 rounded-full bg-primary" />}
+              </div>
+              <span className={`text-sm ${minRating === rating ? 'text-white font-medium' : 'text-[#8B949E]'}`}>
+                {rating === 0 ? 'Any Rating' : `${rating}.0 & Up`}
+              </span>
+            </label>
+          ))}
+        </div>
       </div>
-    </div>
+
+      {/* Multi-Channel Enrichment Filters */}
+      <div className="mb-8">
+        <h3 className="text-xs font-bold text-text/50 uppercase tracking-widest mb-3 text-primary">
+          Enrichment Signals
+        </h3>
+        <ul className="space-y-3">
+          <li className="flex items-center gap-3 cursor-pointer group" onClick={() => toggleFilter('email')}>
+            {filters.email ? <CheckSquare className="w-4 h-4 text-primary" /> : <Square className="w-4 h-4 text-[#30363D] group-hover:text-primary/50" />}
+            <span className={`text-sm flex items-center gap-2 ${filters.email ? 'text-white font-medium' : 'text-[#8B949E]'}`}><Mail className="w-3.5 h-3.5" /> Has Direct Email</span>
+          </li>
+          <li className="flex items-center gap-3 cursor-pointer group" onClick={() => toggleFilter('whatsapp')}>
+            {filters.whatsapp ? <CheckSquare className="w-4 h-4 text-[#3FB950]" /> : <Square className="w-4 h-4 text-[#30363D] group-hover:text-[#3FB950]/50" />}
+            <span className={`text-sm flex items-center gap-2 ${filters.whatsapp ? 'text-white font-medium' : 'text-[#8B949E]'}`}><MessageCircle className="w-3.5 h-3.5" /> Has WhatsApp</span>
+          </li>
+          <li className="flex items-center gap-3 cursor-pointer group" onClick={() => toggleFilter('social')}>
+            {filters.social ? <CheckSquare className="w-4 h-4 text-[#58A6FF]" /> : <Square className="w-4 h-4 text-[#30363D] group-hover:text-[#58A6FF]/50" />}
+            <span className={`text-sm flex items-center gap-2 ${filters.social ? 'text-white font-medium' : 'text-[#8B949E]'}`}>Has Social (IG / LI)</span>
+          </li>
+        </ul>
+      </div>
+
+    </aside>
   );
 }

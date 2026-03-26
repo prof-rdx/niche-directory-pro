@@ -3,31 +3,39 @@ import { mockData } from './data/mockData';
 import DirectoryCard from './components/DirectoryCard';
 import Sidebar from './components/Sidebar';
 import DownloadModal from './components/DownloadModal';
-import { motion, AnimatePresence } from 'framer-motion';
+import DataTable from './components/DataTable';
+import DashboardStats from './components/DashboardStats';
+import ValueProps from './components/ValueProps';
+import { AnimatePresence } from 'framer-motion';
 import { Search } from 'lucide-react';
 
 function App() {
   const [searchTerm, setSearchTerm] = useState('');
-  const [selectedRegion, setSelectedRegion] = useState('All');
+  const [selectedCountry, setSelectedCountry] = useState('All');
   const [selectedCategory, setSelectedCategory] = useState('All');
   const [minRating, setMinRating] = useState(0);
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [viewMode, setViewMode] = useState<'grid' | 'table'>('table');
+  const [filters, setFilters] = useState({ email: false, whatsapp: false, social: false });
 
-  // Derive unique categories and regions for filters
+  // Derive unique categories and countries for filters
   const categories = ['All', ...Array.from(new Set(mockData.map(d => d.category))).filter(Boolean)];
-  const regions = ['All', ...Array.from(new Set(mockData.map(d => d.region))).filter(Boolean)];
+  const countries = ['All', ...Array.from(new Set(mockData.map(d => d.country))).filter(Boolean)];
 
   // Filter data
   const filteredData = useMemo(() => {
     return mockData.filter(item => {
       const matchesSearch = item.name.toLowerCase().includes(searchTerm.toLowerCase());
-      const matchesRegion = selectedRegion === 'All' || item.region === selectedRegion;
+      const matchesCountry = selectedCountry === 'All' || item.country === selectedCountry;
       const matchesCategory = selectedCategory === 'All' || item.category === selectedCategory;
       const matchesRating = item.rating >= minRating;
+      const matchesEmail = !filters.email || item.hasEmail;
+      const matchesWhatsapp = !filters.whatsapp || item.hasWhatsapp;
+      const matchesSocial = !filters.social || (item.hasLinkedin || item.hasInstagram);
       
-      return matchesSearch && matchesRegion && matchesCategory && matchesRating;
+      return matchesSearch && matchesCountry && matchesCategory && matchesRating && matchesEmail && matchesWhatsapp && matchesSocial;
     });
-  }, [searchTerm, selectedRegion, selectedCategory, minRating]);
+  }, [searchTerm, selectedCountry, selectedCategory, minRating, filters]);
 
   return (
     <div className="min-h-screen flex flex-col pt-6 pb-12 px-4 sm:px-6 lg:px-8">
@@ -48,26 +56,37 @@ function App() {
         </button>
       </header>
 
+      {/* Dashboard Stats */}
+      <DashboardStats 
+        totalLeads={mockData.length} 
+        totalNiches={categories.length - 1} 
+        totalRegions={countries.length - 1} 
+      />
+
       {/* Main Content */}
       <main className="flex-1 max-w-7xl w-full mx-auto flex flex-col lg:flex-row gap-6">
         
         {/* Sidebar */}
         <div className="w-full lg:w-1/4">
           <Sidebar 
-            regions={regions}
+            countries={countries}
             categories={categories}
-            selectedRegion={selectedRegion}
-            setSelectedRegion={setSelectedRegion}
+            selectedCountry={selectedCountry}
+            setSelectedCountry={setSelectedCountry}
             selectedCategory={selectedCategory}
             setSelectedCategory={setSelectedCategory}
             minRating={minRating}
             setMinRating={setMinRating}
+            filters={filters}
+            setFilters={setFilters}
           />
         </div>
 
         {/* Directory Grid */}
         <div className="w-full lg:w-3/4 flex flex-col gap-6">
           
+          <ValueProps />
+
           {/* Search Bar */}
           <div className="glass-panel p-2 flex items-center gap-3">
             <Search className="w-5 h-5 text-primary ml-3" />
@@ -80,39 +99,62 @@ function App() {
             />
           </div>
 
-          {/* Results Count */}
-          <div className="text-sm text-text/60 font-medium">
-            Showing <span className="text-primary">{filteredData.length}</span> verified leads.
+          {/* Results Count & View Toggle */}
+          <div className="flex justify-between items-center">
+            <div className="text-sm text-text/60 font-medium">
+              Showing <span className="text-primary">{filteredData.length}</span> verified leads.
+            </div>
+            
+            <div className="flex bg-white/5 rounded-lg border border-white/10 p-1">
+               <button 
+                 onClick={() => setViewMode('grid')}
+                 className={`px-3 py-1.5 text-sm rounded-md transition-colors ${viewMode === 'grid' ? 'bg-primary text-[#0B0C10] font-medium' : 'text-text/60 hover:text-white'}`}
+               >
+                 Cards
+               </button>
+               <button 
+                 onClick={() => setViewMode('table')}
+                 className={`px-3 py-1.5 text-sm rounded-md transition-colors ${viewMode === 'table' ? 'bg-primary text-[#0B0C10] font-medium' : 'text-text/60 hover:text-white'}`}
+               >
+                 Table
+               </button>
+            </div>
           </div>
 
-          {/* Cards Grid */}
-          <motion.div 
-            layout
-            className="grid grid-cols-1 md:grid-cols-2 gap-4"
-          >
-            <AnimatePresence>
-              {filteredData.map((item, i) => (
-                <DirectoryCard key={item.name + i} data={item} index={i} />
-              ))}
-            </AnimatePresence>
-            
-            {filteredData.length === 0 && (
-              <div className="col-span-full py-20 text-center glass-panel">
-                <p className="text-xl text-text/50">No businesses match your filters.</p>
-                <button 
-                  onClick={() => {
-                    setSearchTerm('');
-                    setSelectedRegion('All');
-                    setSelectedCategory('All');
-                    setMinRating(0);
-                  }}
-                  className="mt-4 text-primary underline"
-                >
-                  Clear all filters
-                </button>
-              </div>
-            )}
-          </motion.div>
+          {/* Render Table OR Cards Grid */}
+          {filteredData.length === 0 ? (
+            <div className="col-span-full py-20 text-center glass-panel">
+              <p className="text-xl text-text/50">No businesses match your filters.</p>
+              <button 
+                onClick={() => {
+                  setSearchTerm('');
+                  setSelectedCountry('All');
+                  setSelectedCategory('All');
+                  setMinRating(0);
+                  setFilters({ email: false, whatsapp: false, social: false });
+                }}
+                className="mt-4 text-primary underline"
+              >
+                Clear all filters
+              </button>
+            </div>
+          ) : viewMode === 'table' ? (
+            <DataTable data={filteredData} />
+          ) : (
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <AnimatePresence>
+                {filteredData.slice(0, 100).map((item, i) => (
+                  <DirectoryCard key={item.name + i} data={item} index={i} />
+                ))}
+              </AnimatePresence>
+              
+              {filteredData.length > 100 && (
+                 <div className="col-span-full text-center p-4 text-text/50">
+                   Showing 100 of {filteredData.length} cards. Switch to Table View or use Search to explore more.
+                 </div>
+              )}
+            </div>
+          )}
 
         </div>
       </main>
